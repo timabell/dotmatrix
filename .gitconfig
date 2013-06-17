@@ -1,5 +1,6 @@
 [alias]
 	st = status
+	diffc = diff --cached
 	ci = commit
 	co = checkout
 	cp = cherry-pick
