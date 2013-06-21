@@ -38,5 +38,8 @@ if [ -f '/usr/local/etc/bash_completion.d/git-completion.bash' ]; then
   source '/usr/local/etc/bash_completion.d/git-completion.bash'
 fi
 
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init -)"
+
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [ ! -f "$HOME/.bashrc.local" ] || . "$HOME/.bashrc.local"
