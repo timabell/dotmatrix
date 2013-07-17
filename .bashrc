@@ -43,3 +43,7 @@ eval "$(rbenv init -)"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [ ! -f "$HOME/.bashrc.local" ] || . "$HOME/.bashrc.local"
+
+# Get tmux to pass 256 colours through to vim
+# ref http://unix.stackexchange.com/a/1098
+alias tmux="tmux -2"
