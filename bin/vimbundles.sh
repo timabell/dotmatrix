@@ -1,8 +1,27 @@
 #!/usr/bin/env bash
+
+# use call with -l to list github address of all bundles
+
+LIST_ONLY=false
+
+OPTIND=1
+while getopts "l" opt; do
+  case "$opt" in
+    l)
+      LIST_ONLY=true
+      ;;
+  esac
+done
+
+
 mkdir -p ~/.vimbundles
 cd ~/.vimbundles
 
 get_bundle() {
+  if $LIST_ONLY; then
+    echo "https://github.com/$1/$2"
+    return
+  fi
   (
   if [ -d "$2" ]; then
     echo "Updating $1's $2"
