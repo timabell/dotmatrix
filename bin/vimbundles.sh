@@ -73,4 +73,7 @@ get_bundle gregsexton gitv
 get_bundle rondale-sc vim-spacejam
 get_bundle elixir-lang vim-elixir
 
-vim -c 'call pathogen#helptags()|q'
+if ! $LIST_ONLY ; then
+  echo Running helptags...
+  vim -c 'call pathogen#helptags()|q'
+fi
