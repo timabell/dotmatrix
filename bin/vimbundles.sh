@@ -3,12 +3,16 @@
 # use call with -l to list github address of all bundles
 
 LIST_ONLY=false
+VERBOSE=false
 
 OPTIND=1
-while getopts "l" opt; do
+while getopts "lv" opt; do
   case "$opt" in
     l)
       LIST_ONLY=true
+      ;;
+    v)
+      VERBOSE=true
       ;;
   esac
 done
@@ -20,6 +24,11 @@ cd ~/.vimbundles
 get_bundle() {
   if $LIST_ONLY; then
     echo "https://github.com/$1/$2"
+    if $VERBOSE; then
+      find "$2" -maxdepth 1 -iname "README*" | xargs head
+      echo "============================================================="
+      echo "============================================================="
+    fi
     return
   fi
   (
