@@ -47,3 +47,5 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 # Get tmux to pass 256 colours through to vim
 # ref http://unix.stackexchange.com/a/1098
 alias tmux="tmux -2"
+
+alias be="bundle exec"
