@@ -27,6 +27,10 @@ augroup vimrc
   autocmd GuiEnter * set columns=120 lines=70 number
 augroup END
 
+augroup unfold_on_open
+  autocmd Syntax ruby normal zR
+augroup END
+
 if filereadable(expand('~/.vimrc.local'))
   source ~/.vimrc.local
 endif
