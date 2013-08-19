@@ -49,3 +49,5 @@ PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 alias tmux="tmux -2"
 
 alias be="bundle exec"
+alias gk="gitk &"
+alias gka="gitk --all &"
