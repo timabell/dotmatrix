@@ -39,6 +39,7 @@ if [ -f '/usr/local/etc/bash_completion.d/git-completion.bash' ]; then
 fi
 
 export PATH="$HOME/.rbenv/bin:$PATH"
+export PATH="$HOME/bin:$PATH"
 eval "$(rbenv init -)"
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
