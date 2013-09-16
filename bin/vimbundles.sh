@@ -81,6 +81,7 @@ get_bundle jgdavey vim-weefactor
 get_bundle gregsexton gitv
 get_bundle rondale-sc vim-spacejam
 get_bundle elixir-lang vim-elixir
+get_bundle heartsentwined vim-emblem
 get_bundle kien ctrlp.vim
 get_bundle kurkale6ka vim-swap
 

@@ -121,14 +121,17 @@ call extend(g:rails_gem_projections, {
       \ }, 'keep')
 
 inoremap <C-C> <Esc>`^
+map Y y$
+
+let g:splitjoin_split_mapping = ''
+let g:splitjoin_join_mapping = ''
+
+nmap <silent> gK :SplitjoinJoin<cr>
+nmap <silent> gJ :SplitjoinSplit<cr>
 
 " Enable TAB indent and SHIFT-TAB unindent
 vnoremap <silent> <TAB> >gv
 vnoremap <silent> <S-TAB> <gv
-
-" Open the OSX color picker and insert the hex value of the choosen color.
-" Depends on: https://github.com/jnordberg/color-pick
-inoremap <C-X>c #<C-R>=system('colorpick')<CR>
 
 iabbrev Lidsa     Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum
 iabbrev rdebug    require 'ruby-debug'; Debugger.start; Debugger.settings[:autoeval] = 1; Debugger.settings[:autolist] = 1; debugger
