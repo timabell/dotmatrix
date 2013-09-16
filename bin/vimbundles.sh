@@ -82,6 +82,7 @@ get_bundle gregsexton gitv
 get_bundle rondale-sc vim-spacejam
 get_bundle elixir-lang vim-elixir
 get_bundle kien ctrlp.vim
+get_bundle kurkale6ka vim-swap
 
 if ! $LIST_ONLY ; then
   echo Running helptags...
