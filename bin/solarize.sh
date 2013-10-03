@@ -20,6 +20,4 @@ get_bundle sigurdga gnome-terminal-colors-solarized
 
 cd gnome-terminal-colors-solarized.git
 echo Installing...
-./solarize
-echo Turning on dark theme...
-./set_dark.sh
+./install.sh
