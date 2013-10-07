@@ -4,5 +4,7 @@
 --type-set=haml=.haml
 --type-set=sass=.sass,.scss
 
-# Do not search these directories for quicker lookup
---ignore-dir=log,tags,tmp
+# Do not search:
+--ignore-file=is:tags
+--ignore-dir=is:log
+--ignore-dir=is:tmp
