@@ -29,8 +29,6 @@
 	excludesfile = ~/.cvsignore
 	editor = vim
 	whitespace = warn
-[help]
-	autocorrect = 10
 [include]
 	path = ~/.gitconfig.local
 [interactive]
