@@ -85,6 +85,7 @@ get_bundle heartsentwined vim-emblem
 get_bundle kien ctrlp.vim
 get_bundle kurkale6ka vim-swap
 get_bundle scrooloose nerdtree
+get_bundle swaroopch vim-markdown-preview
 
 if ! $LIST_ONLY ; then
   echo Running helptags...
