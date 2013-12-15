@@ -52,3 +52,6 @@ alias tmux="tmux -2"
 alias be="bundle exec"
 alias gk="gitk &"
 alias gka="gitk --all &"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"
