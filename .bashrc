@@ -40,7 +40,9 @@ fi
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
-eval "$(rbenv init -)"
+if command -v rbenv > /dev/null 2>&1; then
+	eval "$(rbenv init -)"
+fi
 
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [ ! -f "$HOME/.bashrc.local" ] || . "$HOME/.bashrc.local"
