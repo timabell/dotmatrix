@@ -8,3 +8,4 @@ keepassx
 tmux
 unison-gtk
 chromium-browser
+flashplugin-installer
