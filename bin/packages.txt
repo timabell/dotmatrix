@@ -9,3 +9,4 @@ unison-gtk
 chromium-browser
 dia
 exuberant-ctags
+openssh-server
