@@ -3,10 +3,9 @@ git
 gitk
 git-gui
 aptitude
-gnome
 keepassx
 tmux
 unison-gtk
 chromium-browser
-flashplugin-installer
 dia
+exuberant-ctags
