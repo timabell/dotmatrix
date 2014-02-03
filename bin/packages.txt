@@ -11,3 +11,5 @@ dia
 exuberant-ctags
 openssh-server
 libreoffice
+htop
+iotop
