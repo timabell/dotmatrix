@@ -2,6 +2,7 @@ vim
 git
 gitk
 git-gui
+kdiff3
 aptitude
 keepassx
 tmux
