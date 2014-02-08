@@ -89,6 +89,13 @@ get_bundle swaroopch vim-markdown-preview
 get_bundle nosami Omnisharp
 get_bundle tpope vim-dispatch
 
+(
+  cd ~/.vimbundles/Omnisharp/
+  git submodult update --init
+  cd server/
+  xbuild /p:Platform="Any CPU"
+)
+
 if ! $LIST_ONLY ; then
   echo Running helptags...
   vim -c 'call pathogen#helptags()|q'
