@@ -86,6 +86,8 @@ get_bundle kien ctrlp.vim
 get_bundle kurkale6ka vim-swap
 get_bundle scrooloose nerdtree
 get_bundle swaroopch vim-markdown-preview
+get_bundle nosami Omnisharp
+get_bundle tpope vim-dispatch
 
 if ! $LIST_ONLY ; then
   echo Running helptags...
