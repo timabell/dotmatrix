@@ -14,3 +14,4 @@ openssh-server
 libreoffice
 htop
 iotop
+ack-grep
