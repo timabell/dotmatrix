@@ -57,3 +57,6 @@ alias gka="gitk --all &"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
+
+# chromium path for karma test server
+export CHROME_BIN=`which chromium-browser`
