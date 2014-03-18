@@ -55,4 +55,4 @@ export PATH="/usr/local/heroku/bin:$PATH"
 export CHROME_BIN=`which chromium-browser`
 
 # import aliases
-[ ! -f "$HOME/.bash_aliases" ] || . "$HOME/.bash_aliases"
+[ ! -f "$HOME/.aliases" ] || . "$HOME/.aliases"
