@@ -47,18 +47,12 @@ fi
 PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 [ ! -f "$HOME/.bashrc.local" ] || . "$HOME/.bashrc.local"
 
-# Get tmux to pass 256 colours through to vim
-# ref http://unix.stackexchange.com/a/1098
-alias tmux="tmux -2"
-
-alias be="bundle exec"
-alias gk="gitk &"
-alias gka="gitk --all &"
-
-alias ll="ls -al"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
 # chromium path for karma test server
 export CHROME_BIN=`which chromium-browser`
+
+# import aliases
+[ ! -f "$HOME/.bash_aliases" ] || . "$HOME/.bash_aliases"
