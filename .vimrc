@@ -18,7 +18,7 @@ set hidden
 
 set guifont=Monaco:h16
 set guioptions-=T guioptions-=e guioptions-=L guioptions-=r
-set shell=bash
+set shell=~/.vim/shell-wrapper.sh
 
 set ignorecase
 
