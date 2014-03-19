@@ -1,5 +1,6 @@
 # Allow alias expansion in non-interactive shells, notably running stuff from within vim
-# shopt -s expand_aliases
+# http://stackoverflow.com/a/18901595/10245
+shopt -s expand_aliases
 
 # Get tmux to pass 256 colours through to vim
 # ref http://unix.stackexchange.com/a/1098
