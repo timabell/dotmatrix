@@ -1,4 +1,5 @@
 [alias]
+	aa = add -A .
 	st = status
 	diffc = diff --cached
 	ci = commit
@@ -55,5 +56,7 @@
 	default = tracking
 [rebase]
 	autosquash = true
+[diff]
+	algorithm = patience
 [web]
 	browser = chromium-browser

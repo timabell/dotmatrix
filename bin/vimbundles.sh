@@ -37,7 +37,7 @@ get_bundle() {
     cd "$2"
     git pull --rebase
   else
-    git clone "git://github.com/$1/$2.git"
+    git clone "https://github.com/$1/$2.git"
   fi
   )
 }
@@ -81,6 +81,8 @@ get_bundle jgdavey vim-weefactor
 get_bundle gregsexton gitv
 get_bundle rondale-sc vim-spacejam
 get_bundle heartsentwined vim-emblem
+get_bundle slim-template vim-slim
+get_bundle vicramon vim-quickdraw
 get_bundle kien ctrlp.vim
 get_bundle kurkale6ka vim-swap
 get_bundle scrooloose nerdtree
