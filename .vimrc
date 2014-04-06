@@ -22,7 +22,7 @@ set shell=~/.vim/shell-wrapper.sh
 
 " Load environment (including aliases) for running commands in shell
 " http://stackoverflow.com/a/18901595/10245
-let $BASH_ENV="~/.bashrc"
+" let $BASH_ENV="~/.bashrc"
 
 set ignorecase
 
