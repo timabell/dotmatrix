@@ -5,6 +5,7 @@ swaroopch/vim-markdown-preview
 nosami/Omnisharp
 tpope/vim-dispatch
 
+hashrocket/vim-hashrocket
 AndrewRadev/splitjoin.vim
 adamlowe/vim-slurper
 duff/vim-bufonly
@@ -35,6 +36,7 @@ tpope/vim-git
 tpope/vim-haml
 tpope/vim-markdown
 tpope/vim-pathogen
+tpope/vim-projectionist
 tpope/vim-ragtag
 tpope/vim-rails
 tpope/vim-rake
