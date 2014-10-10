@@ -16,3 +16,4 @@ htop
 iotop
 ack-grep
 xchat
+skype
