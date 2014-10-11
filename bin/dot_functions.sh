@@ -1,9 +1,12 @@
 # colors
 
-red=$(tput setaf 1)
-green=$(tput setaf 2)
-yellow=$(tput setaf 3)
-normal=$(tput sgr0)
+# tput not found on windows
+# https://github.com/Alexpux/MINGW-packages/issues/42
+
+# red=$(tput setaf 1)
+# green=$(tput setaf 2)
+# yellow=$(tput setaf 3)
+# normal=$(tput sgr0)
 
 # Print functions
 
