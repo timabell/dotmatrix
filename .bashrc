@@ -30,7 +30,7 @@ fi
 
 export HISTIGNORE="%*"
 
-[ -z "$PS1" ] || stty -ixon
+# [ -z "$PS1" ] || stty -ixon # stty not available on windows
 
 [ -z "$PS1" ] || export PS1="\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;36m\]\w\[\033[00m\]\$(git_prompt_info '(%s)')\n$ "
 
