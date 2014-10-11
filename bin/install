@@ -33,9 +33,10 @@ for dotfile in $(./bin/file_list.sh); do
 
   [ -e $dotmatrix_path ] || continue
 
-  if [ ! -L $path ]; then
+  if [ ! -e $path ]; then
     link_notice $dotfile "absent"
-    ln -nfs $dotmatrix_path $path
+    # use hardlinks on windows, symlinks not supported, was getting a copy
+    ln -nf $dotmatrix_path $path 
   else
     skip_notice $dotfile "exists"
   fi
