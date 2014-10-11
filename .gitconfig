@@ -10,6 +10,7 @@
 	squash = !sh -c 'git commit -m \"squash! $(git log -1 --format='\\''%s'\\'' $@)\"' -
 	doff = reset head^
 	ri = rebase --interactive
+	rc = rebase --continue
 	br = branch
 	pruneremote = remote prune origin
 	tree = log --graph --oneline --decorate --color --all
