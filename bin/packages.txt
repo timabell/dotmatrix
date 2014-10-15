@@ -18,3 +18,4 @@ ack-grep
 xchat
 skype
 gwakeonlan
+shutter
