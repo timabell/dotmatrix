@@ -19,3 +19,4 @@ xchat
 skype
 gwakeonlan
 shutter
+gnome-web-photo
