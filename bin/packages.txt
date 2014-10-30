@@ -20,3 +20,4 @@ skype
 gwakeonlan
 shutter
 gnome-web-photo
+libgoo-canvas-perl
