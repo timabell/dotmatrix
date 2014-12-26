@@ -23,3 +23,5 @@ gnome-web-photo
 libgoo-canvas-perl
 gufw
 cheese
+virtualbox-dkms
+virtualbox-qt
