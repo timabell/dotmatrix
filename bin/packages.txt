@@ -25,3 +25,4 @@ gufw
 cheese
 virtualbox-dkms
 virtualbox-qt
+hplip-gui
