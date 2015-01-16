@@ -1,5 +1,5 @@
 [github]
-	user = hashrocketeer
+#	user = hashrocketeer
 [user]
-	email = dev@hashrocket.com
-	name = "Hashrocket Workstation"
+#	email = dev@hashrocket.com
+#	name = "Hashrocket Workstation"
