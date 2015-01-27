@@ -27,3 +27,4 @@ virtualbox-dkms
 virtualbox-qt
 hplip-gui
 dropbox
+pdfshuffler
