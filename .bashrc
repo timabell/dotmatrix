@@ -56,3 +56,5 @@ export CHROME_BIN=`which chromium-browser`
 
 # import aliases
 [ ! -f "$HOME/.aliases" ] || . "$HOME/.aliases"
+
+echo -ne "\033]2;bash\007"
