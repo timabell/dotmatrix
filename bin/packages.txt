@@ -28,3 +28,4 @@ virtualbox-qt
 hplip-gui
 dropbox
 pdfshuffler
+eclipse
