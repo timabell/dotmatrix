@@ -1,5 +1,6 @@
 [alias]
 	aa = add -A .
+	fa = fetch --all
 	st = status
 	diffc = diff --cached
 	ci = commit
