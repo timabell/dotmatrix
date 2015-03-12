@@ -24,6 +24,10 @@ else
   BASE="$HOME/.vimbundles"
 fi
 
+# setup pathogen
+mkdir -p "$HOME/vimfiles/autoload"
+ln -nf .vim/autoload/pathogen.vim "$HOME/vimfiles/autoload/"
+
 if [ "$1" = "log-since" ]; then
   echo "**logsince**"
   logsince="true"
