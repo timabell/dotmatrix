@@ -3,6 +3,7 @@ kurkale6ka/vim-swap
 scrooloose/nerdtree
 swaroopch/vim-markdown-preview
 tpope/vim-dispatch
+altercation/vim-colors-solarized
 
 hashrocket/vim-hashrocket
 AndrewRadev/splitjoin.vim
