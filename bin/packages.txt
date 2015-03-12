@@ -18,3 +18,15 @@ ack-grep
 xchat
 skype
 gwakeonlan
+shutter
+gnome-web-photo
+libgoo-canvas-perl
+gufw
+cheese
+virtualbox-dkms
+virtualbox-qt
+hplip-gui
+dropbox
+pdfshuffler
+eclipse
+gtk-redshift

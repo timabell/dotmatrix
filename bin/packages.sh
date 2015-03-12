@@ -1,6 +1,5 @@
 #!/bin/sh
 echo Expect a sudo prompt for apt-get use...
-sudo apt-get update
 # echo removing firefox
 # sudo apt-get remove firefox
 if [ "$1" = "single" ]; then

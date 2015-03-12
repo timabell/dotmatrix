@@ -87,10 +87,6 @@ setopt INC_APPEND_HISTORY
 export PSQL_EDITOR='vim -c"setf sql"'
 
 # aliases
-alias mv='nocorrect mv'       # no spelling correction on mv
-alias cp='nocorrect cp'
-alias mkdir='nocorrect mkdir'
-alias rspec='nocorrect rspec'
 alias ll="ls -l"
 alias la="ls -a"
 alias l.='ls -ld .[^.]*'
@@ -100,13 +96,14 @@ alias rd='rmdir'
 alias cd..='cd ..'
 alias ..='cd ..'
 alias groutes='rake routes | grep $@'
+alias gk='gitk &'
+alias gka='gitk --all &'
 
 # set cd autocompletion to commonly visited directories
 cdpath=(~ ~/src $DEV_DIR $HASHROCKET_DIR)
 
 # rvm-install added line:
 if [[ -s "$HOME/.rvm/scripts/rvm" ]] ; then source "$HOME/.rvm/scripts/rvm" ; fi
-PATH=$PATH:$HOME/.rvm/bin # Add RVM to PATH for scripting
 
 cuke() {
   local file="$1"
@@ -124,3 +121,9 @@ zrcl="$HOME/.zshrc.local"
 
 # remove duplicates in $PATH
 typeset -aU path
+export PATH="$HOME/.bin:$PATH"
+export PATH="$HOME/.rbenv/bin:$PATH"
+eval "$(rbenv init - zsh --no-rehash)"
+
+### Added by the Heroku Toolbelt
+export PATH="/usr/local/heroku/bin:$PATH"

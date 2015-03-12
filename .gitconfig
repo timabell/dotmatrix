@@ -1,5 +1,6 @@
 [alias]
 	aa = add -A .
+	fa = fetch --all
 	st = status
 	diffc = diff --cached
 	ci = commit
@@ -31,8 +32,6 @@
 	excludesfile = ~/.cvsignore
 	editor = vim
 	whitespace = warn
-[include]
-	path = ~/.gitconfig.local
 [interactive]
 	singlekey = true
 [merge]
@@ -61,3 +60,5 @@
 	algorithm = patience
 [web]
 	browser = chromium-browser
+[include]
+	path = ~/.gitconfig.local
