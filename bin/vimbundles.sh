@@ -27,6 +27,7 @@ fi
 # setup pathogen
 mkdir -p "$HOME/vimfiles/autoload"
 ln -nf .vim/autoload/pathogen.vim "$HOME/vimfiles/autoload/"
+ln -nf .vim/shell-wrapper.sh "$HOME/.vim/"
 
 if [ "$1" = "log-since" ]; then
   echo "**logsince**"
