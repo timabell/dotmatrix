@@ -1,1 +1,1 @@
-set guifont=Ubuntu\ Mono\ 9
+set guifont=Consolas:h9
