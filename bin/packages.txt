@@ -31,3 +31,4 @@ pdfshuffler
 eclipse
 gtk-redshift
 k4dirstat
+gpxviewer
