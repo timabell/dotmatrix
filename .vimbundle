@@ -4,6 +4,7 @@ scrooloose/nerdtree
 swaroopch/vim-markdown-preview
 tpope/vim-dispatch
 altercation/vim-colors-solarized
+PProvost/vim-ps1
 
 hashrocket/vim-hashrocket
 AndrewRadev/splitjoin.vim
