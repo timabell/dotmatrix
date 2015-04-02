@@ -904,6 +904,15 @@
       <Color Name="RazorCode">
         <Background Type="CT_RAW" Source="FF073642" />
       </Color>
+      <Color Name="PowerShell Attribute">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Comment">
+        <Foreground Type="CT_RAW" Source="FF477786" />
+      </Color>
+      <Color Name="PowerShell String">
+        <Foreground Type="CT_RAW" Source="FF2AA198" />
+      </Color>
     </Category>
     <Category Name="Command Window" GUID="{ee1be240-4e81-4beb-8eea-54322b6b1bf5}">
       <Color Name="Plain Text">
