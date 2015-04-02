@@ -929,16 +929,18 @@
         <Foreground Type="CT_RAW" Source="FF839496" />
       </Color>
       <Color Name="PowerShell Command Argument">
+        <Background Type="CT_RAW" Source="FF073642" />
         <Foreground Type="CT_RAW" Source="FF839496" />
       </Color>
       <Color Name="PowerShell Command Parameter">
-        <Foreground Type="CT_RAW" Source="FF839496" />
+        <Background Type="CT_RAW" Source="FF073642" />
+        <Foreground Type="CT_RAW" Source="FF93A1A1" />
       </Color>
       <Color Name="PowerShell Comment">
         <Foreground Type="CT_RAW" Source="FF477786" />
       </Color>
       <Color Name="PowerShell Keyword">
-        <Foreground Type="CT_RAW" Source="FF839496" />
+        <Foreground Type="CT_RAW" Source="FF859900" />
       </Color>
       <Color Name="PowerShell Number">
         <Foreground Type="CT_RAW" Source="FF2AA198" />
@@ -953,7 +955,7 @@
         <Foreground Type="CT_RAW" Source="FFB58900" />
       </Color>
       <Color Name="PowerShell Variable">
-        <Foreground Type="CT_RAW" Source="FF839496" />
+        <Foreground Type="CT_RAW" Source="FF268BD2" />
       </Color>
       <Color Name="PowerShell Member">
         <Foreground Type="CT_RAW" Source="FF839496" />
@@ -965,10 +967,10 @@
         <Foreground Type="CT_RAW" Source="FF839496" />
       </Color>
       <Color Name="PowerShell Line Continuation">
-        <Foreground Type="CT_RAW" Source="FF839496" />
+        <Foreground Type="CT_RAW" Source="FFD33682" />
       </Color>
       <Color Name="PowerShell Loop Label">
-        <Foreground Type="CT_RAW" Source="FF839496" />
+        <Foreground Type="CT_RAW" Source="FF859900" />
       </Color>
       <Color Name="PowerShell Statement Separator">
         <Foreground Type="CT_RAW" Source="FF839496" />
