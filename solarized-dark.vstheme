@@ -1,5 +1,5 @@
 <Themes>
-  <Theme Name="Solarized (Dark) (1)" GUID="{b01709ff-7385-4e9c-8139-d94896b56e4f}">
+  <Theme Name="solarized dark" GUID="{5827e9ea-8904-44e7-b5cb-0f4e4d5557a5}">
     <Category Name="Autos" GUID="{a7ee6bee-d0aa-4b2f-ad9d-748276a725f6}">
       <Color Name="ChangedText">
         <Foreground Type="CT_RAW" Source="FFF7A1A1" />
@@ -897,6 +897,12 @@
       </Color>
       <Color Name="outlining.verticalrule">
         <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="ReSharper Todo Item">
+        <Foreground Type="CT_RAW" Source="FF36A5CA" />
+      </Color>
+      <Color Name="RazorCode">
+        <Background Type="CT_RAW" Source="FF073642" />
       </Color>
     </Category>
     <Category Name="Command Window" GUID="{ee1be240-4e81-4beb-8eea-54322b6b1bf5}">
@@ -6039,7 +6045,7 @@
         <Background Type="CT_RAW" Source="FF073642" />
       </Color>
       <Color Name="Visible Whitespace">
-        <Foreground Type="CT_RAW" Source="FF073642" />
+        <Foreground Type="CT_RAW" Source="FF1F6171" />
       </Color>
     </Category>
     <Category Name="Text Editor Text Marker Items" GUID="{ff349800-ea43-46c1-8c98-878e78f46501}">
