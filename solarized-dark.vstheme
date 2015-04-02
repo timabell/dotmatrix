@@ -904,14 +904,134 @@
       <Color Name="RazorCode">
         <Background Type="CT_RAW" Source="FF073642" />
       </Color>
+      <Color Name="PowerShell 3 Command Name">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell 3 Generic">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell 3 Type Name">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell 3 Attribute">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell 3 Variable">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell 3 Parameter">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
       <Color Name="PowerShell Attribute">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Command">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Command Argument">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Command Parameter">
         <Foreground Type="CT_RAW" Source="FF839496" />
       </Color>
       <Color Name="PowerShell Comment">
         <Foreground Type="CT_RAW" Source="FF477786" />
       </Color>
+      <Color Name="PowerShell Keyword">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Number">
+        <Foreground Type="CT_RAW" Source="FF2AA198" />
+      </Color>
+      <Color Name="PowerShell Operator">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
       <Color Name="PowerShell String">
         <Foreground Type="CT_RAW" Source="FF2AA198" />
+      </Color>
+      <Color Name="PowerShell Type">
+        <Foreground Type="CT_RAW" Source="FFB58900" />
+      </Color>
+      <Color Name="PowerShell Variable">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Member">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Group Start">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Group End">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Line Continuation">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Loop Label">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Statement Separator">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShellLogError">
+        <Foreground Type="CT_RAW" Source="FFDC322F" />
+      </Color>
+      <Color Name="PowerShellLogWarning">
+        <Foreground Type="CT_RAW" Source="FFB58900" />
+      </Color>
+      <Color Name="PowerShellLogDebug">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShellLogVerbose">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Interactive - Black">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Interactive - DarkRed">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Interactive - DarkGreen">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Interactive - DarkYellow">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Interactive - DarkBlue">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Interactive - DarkMagenta">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Interactive - DarkCyan">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Interactive - Gray">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Interactive - DarkGray">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Interactive - Red">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Interactive - Green">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Interactive - Yellow">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Interactive - Blue">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Interactive - Magenta">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Interactive - Cyan">
+        <Foreground Type="CT_RAW" Source="FF839496" />
+      </Color>
+      <Color Name="PowerShell Interactive - White">
+        <Foreground Type="CT_RAW" Source="FF839496" />
       </Color>
     </Category>
     <Category Name="Command Window" GUID="{ee1be240-4e81-4beb-8eea-54322b6b1bf5}">
