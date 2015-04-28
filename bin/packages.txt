@@ -33,3 +33,4 @@ gtk-redshift
 k4dirstat
 gpxviewer
 synergy
+rapid-photo-downloader
