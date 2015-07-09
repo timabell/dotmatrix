@@ -5,3 +5,9 @@
 /tags
 *.orig
 *.local
+bin
+obj
+*.suo
+*.user
+*.TMP
+*.dbmdl
