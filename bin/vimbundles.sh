@@ -3,6 +3,11 @@
 # use call with -l to list github address of all bundles
 # use with -l -v to see the head of all readmes
 
+source $(dirname $0)/dot_functions.sh
+
+directory_warning
+
+
 LIST_ONLY=false
 VERBOSE=false
 
