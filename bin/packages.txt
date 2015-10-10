@@ -37,3 +37,4 @@ rapid-photo-downloader
 build-essential
 digikam
 kipi-plugins
+sqlitebrowser
