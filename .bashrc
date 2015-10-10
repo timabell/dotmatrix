@@ -53,5 +53,8 @@ export PATH="/usr/local/heroku/bin:$PATH"
 # chromium path for karma test server
 export CHROME_BIN=`which chromium-browser`
 
+# golang paths
+export GOPATH=~/.golang
+
 # import aliases
 [ ! -f "$HOME/.aliases" ] || . "$HOME/.aliases"
