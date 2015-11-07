@@ -5,6 +5,7 @@ swaroopch/vim-markdown-preview
 nosami/Omnisharp
 tpope/vim-dispatch
 altercation/vim-colors-solarized
+fatih/vim-go
 
 hashrocket/vim-hashrocket
 AndrewRadev/splitjoin.vim
