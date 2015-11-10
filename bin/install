@@ -42,6 +42,16 @@ for dotfile in $(./bin/file_list.sh); do
   fi
 done
 
+# windows doesn't support linking folders so use recursive copy instead
+folderToLink=".vim"
+targetFolder="$HOME/$folderToLink"
+if [ ! -d $targetFolder ]; then
+	cp -r "$PWD/$folderToLink" "$HOME/"
+else
+    skip_notice $targetFolder "exists"
+fi
+
+
 # Symlink $HOME-relative files, preserving directory structure
 
 for file in $(find custom -type f -not -name '*README*'); do
