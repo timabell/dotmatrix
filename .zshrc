@@ -129,3 +129,6 @@ eval "$(rbenv init - zsh --no-rehash)"
 export PATH="/usr/local/heroku/bin:$PATH"
 
 [[ -s "/home/tim/.gvm/scripts/gvm" ]] && source "/home/tim/.gvm/scripts/gvm"
+
+export NVM_DIR="/home/tim/.nvm"
+[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
