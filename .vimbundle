@@ -6,6 +6,12 @@ nosami/Omnisharp
 tpope/vim-dispatch
 altercation/vim-colors-solarized
 fatih/vim-go
+majutsushi/tagbar
+Shougo/neocomplete.vim
+Shougo/neosnippet.vim
+Shougo/neosnippet-snippets
+majutsushi/tagbar
+garyburd/go-explorer
 
 hashrocket/vim-hashrocket
 AndrewRadev/splitjoin.vim
