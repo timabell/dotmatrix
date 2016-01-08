@@ -59,11 +59,13 @@
 			</ToolsOptionsSubCategory>
 			<ToolsOptionsSubCategory name="RoamingSettings" RegisteredName="RoamingSettings" PackageName="Roaming Manager Package">
 				<PropertyValue name="SyncEditor">true</PropertyValue>
+				<PropertyValue name="IsolatedAzureActiveDirectoryEnabled">false</PropertyValue>
 				<PropertyValue name="SyncAppearance">true</PropertyValue>
 				<PropertyValue name="RoamingEnabled">true</PropertyValue>
 				<PropertyValue name="SyncStartup">true</PropertyValue>
 				<PropertyValue name="SyncAliases">true</PropertyValue>
 				<PropertyValue name="SyncKeyBindings">true</PropertyValue>
+				<PropertyValue name="IsolatedAzureActiveDirectoryVisible">false</PropertyValue>
 			</ToolsOptionsSubCategory>
 			<ToolsOptionsSubCategory name="Startup" RegisteredName="Startup" PackageName="Visual Studio Environment Package">
 				<PropertyValue name="OnStartUp">5</PropertyValue>
@@ -1585,10 +1587,7 @@
 		</Category>
 		<Category name="Environment_DefaultEditors" Category="{68161AEE-BCA8-4214-B2E4-7875263E49C5}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_DefaultEditors" PackageName="Visual Studio Environment Package">
 			<PropertyValue name="NumberOfMappings">0</PropertyValue>
-			<PropertyValue name="NumberOfDefaultEditors">3</PropertyValue>
-			<PropertyValue name="DefaultEditor&gt;0">eml&gt;0&gt;NoGuid&gt;NoGuid</PropertyValue>
-			<PropertyValue name="DefaultEditor&gt;1">resx&gt;0&gt;NoGuid&gt;NoGuid</PropertyValue>
-			<PropertyValue name="DefaultEditor&gt;2">sql&gt;0&gt;NoGuid&gt;NoGuid</PropertyValue>
+			<PropertyValue name="NumberOfDefaultEditors">0</PropertyValue>
 		</Category>
 		<Category name="Environment_ErrorList" Category="{68897077-DF64-4628-9BD4-025923684F2F}" Package="{4A9B7E50-AA16-11d0-A8C5-00A0C921A4D2}" RegisteredName="Environment_ErrorList" PackageName="Visual Studio Task List Package">
 			<PropertyValue name="ActiveProvider">{00000000-0000-0000-0000-000000000000}</PropertyValue>
@@ -1690,7 +1689,7 @@
 		</Category>
 		<Category name="Environment_SimplifiedToolsOptions" Category="{13BEDEE6-9051-4809-B9E3-2EEC749EB15A}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_SimplifiedToolsOptions" PackageName="Visual Studio Environment Package">
 			<PropertyValue name="SupportsSimpleToolsOptions">false</PropertyValue>
-			<PropertyValue name="ShowingAllPages">false</PropertyValue>
+			<PropertyValue name="ShowingAllPages">true</PropertyValue>
 			<PropertyValue name="ShowFlatList">false</PropertyValue>
 		</Category>
 		<Category name="Environment_SolutionExplorer" Category="{6FA9062F-82B2-4725-BA6D-58CF7CBA7DEA}" Package="{cf6a5c16-83b0-4d04-b702-195c35c6e887}" RegisteredName="Environment_SolutionExplorer" PackageName="Microsoft.VisualStudio.PlatformUI.SolutionNavigatorPackage">
@@ -1741,7 +1740,7 @@
 			<PropertyValue name="HitReplaced">1</PropertyValue>
 			<PropertyValue name="EditableFindInFilesResults">1</PropertyValue>
 			<PropertyValue name="Syntax">Regex</PropertyValue>
-			<PropertyValue name="In Files Pane Display Options">8448</PropertyValue>
+			<PropertyValue name="In Files Pane Display Options">0</PropertyValue>
 			<PropertyValue name="NumberOfScopes">0</PropertyValue>
 		</Category>
 		<Category name="Environment_WindowLayout" Category="{eb4ba109-a9db-4445-bd09-e7604bcdce84}" Package="{DA9FB551-C724-11d0-AE1F-00A0C90FFFC3}" RegisteredName="Environment_WindowLayout" PackageName="Visual Studio Environment Package">
@@ -1827,7 +1826,7 @@
 										<DockGroup IsVisible="True" DockedHeight="*" DockedWidth="*">
 											<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{a2eaf38f-a0ad-4503-91f8-5f004a69a040}" FloatingTop="100" FloatingLeft="100" FloatingHeight="450" FloatingWidth="450"/>
 											<DocumentGroupContainer IsVisible="True" DockedHeight="*" DockedWidth="*">
-												<wm:WMDocumentGroup>
+												<wm:WMDocumentGroup IsVisible="True">
 													<wm:ToolWindowView ForceCreate="ForceCreate" Name="ST:0:0:{c79b74ff-f1d7-4c94-aefa-4d22bfe1b1f9}" FloatingHeight="537.6" FloatingWidth="716.8"/>
 													<wm:ToolWindowView ContextVisibilityEnabled="False" Name="ST:0:0:{46c87f81-5a06-43a8-9e25-85d33bac49f8}" FloatingHeight="537.6" FloatingWidth="716.8"/>
 													<wm:ToolWindowView ForceCreate="DontForceCreate" Name="ST:0:0:{e8b06f52-6d01-11d2-aa7d-00c04f990343}" FloatingTop="100" FloatingLeft="100" FloatingHeight="400" FloatingWidth="400"/>
@@ -2331,7 +2330,9 @@
 			<KeyboardShortcuts>
 				<ScopeDefinitions>
 					<Scope Name="Team Explorer" ID="{7AA20502-9463-47B7-BF43-341BAF51157C}"/>
+					<Scope Name="PowerShell Tools Interactive Console" ID="{2227C503-8DAF-44E6-BFF6-222088DE83E0}"/>
 					<Scope Name="Live Property Explorer" ID="{31FC2115-5126-4A87-B2F7-77EAAB65048B}"/>
+					<Scope Name="PowerShell Tools" ID="{0FF6321C-6EA5-400B-8342-F126DA8505A2}"/>
 					<Scope Name="XML (Text) Editor" ID="{FA3CD31E-987B-443A-9B81-186104E8DAC1}"/>
 					<Scope Name="Text Editor" ID="{8B382828-6202-11D1-8870-0000F87579D2}"/>
 					<Scope Name="Microsoft SQL Server Data Tools, T-SQL PDW Editor" ID="{C9626B29-6A42-411C-BD76-DAD855C86913}"/>
@@ -2384,6 +2385,9 @@
 				</DefaultShortcuts>
 				<ShortcutsScheme/>
 				<UserShortcuts>
+					<RemoveShortcut Command="InteractiveConsole.HistoryNext" Scope="Interactive Window">Alt+Down Arrow</RemoveShortcut>
+					<RemoveShortcut Command="InteractiveConsole.HistoryPrevious" Scope="Interactive Window">Alt+Up Arrow</RemoveShortcut>
+					<RemoveShortcut Command="InteractiveConsole.ExecuteInInteractive" Scope="Text Editor">Ctrl+E, Ctrl+Enter</RemoveShortcut>
 					<RemoveShortcut Command="Debug.Autos" Scope="Global">Ctrl+Alt+V, A</RemoveShortcut>
 					<RemoveShortcut Command="Debug.Disassembly" Scope="Global">Ctrl+Alt+D</RemoveShortcut>
 					<RemoveShortcut Command="Debug.JavaScriptConsole" Scope="Global">Ctrl+Alt+V, C</RemoveShortcut>
@@ -2644,7 +2648,6 @@
 					<RemoveShortcut Command="ReSharper.ReSharper_RunConfigSettings" Scope="Global">Ctrl+Shift+Alt+R</RemoveShortcut>
 					<RemoveShortcut Command="ReSharper.ReSharper_RunConfigSettings" Scope="Text Editor">Ctrl+Shift+Alt+R</RemoveShortcut>
 					<RemoveShortcut Command="EditorContextMenus.CodeWindow.SpecFlow.NavigateBetweenStepAndStepDefinition" Scope="Global">Ctrl+Shift+Alt+S</RemoveShortcut>
-					<Shortcut Command="EditorContextMenus.CodeWindow.OrganizeUsings.RemoveAndSort" Scope="Text Editor">Shift+Alt+U</Shortcut>
 					<Shortcut Command="Edit.DocumentStartExtend" Scope="Text Editor">Ctrl+Shift+Home</Shortcut>
 					<Shortcut Command="Edit.DocumentStartExtend" Scope="Windows Forms Designer">Shift+Home</Shortcut>
 					<Shortcut Command="Edit.DocumentEndExtend" Scope="Text Editor">Ctrl+Shift+End</Shortcut>
@@ -3130,6 +3133,8 @@
 					<Shortcut Command="Debug.AttachtoProcess" Scope="Global">Ctrl+Alt+P</Shortcut>
 					<Shortcut Command="Edit.ToggleWordWrap" Scope="Global">Ctrl+E, Ctrl+W</Shortcut>
 					<Shortcut Command="Tools.ExternalCommand1" Scope="Global">Ctrl+Shift+Alt+V</Shortcut>
+					<RemoveShortcut Command="EditorContextMenus.CodeWindow.OrganizeUsings.RemoveAndSort" Scope="Text Editor">Shift+Alt+U</RemoveShortcut>
+					<Shortcut Command="EditorContextMenus.CodeWindow.OrganizeUsings.RemoveAndSort" Scope="Global">Shift+Alt+U</Shortcut>
 				</UserShortcuts>
 			</KeyboardShortcuts>
 		</Category>
