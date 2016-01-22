@@ -37,3 +37,4 @@ build-essential
 digikam
 kipi-plugins
 sqlitebrowser
+vim-gnome
