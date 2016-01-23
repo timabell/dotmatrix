@@ -8,6 +8,7 @@ digikam
 dropbox
 eclipse
 exuberant-ctags
+gir1.2-gtop-2.0
 git
 git-gui
 gitk
