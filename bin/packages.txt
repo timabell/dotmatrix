@@ -27,6 +27,7 @@ libgoo-canvas-perl
 libreoffice
 openssh-server
 pdfshuffler
+python-gpgme
 rapid-photo-downloader
 shutter
 skype
