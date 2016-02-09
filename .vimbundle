@@ -6,7 +6,6 @@ tpope/vim-dispatch
 altercation/vim-colors-solarized
 PProvost/vim-ps1
 
-hashrocket/vim-hashrocket
 AndrewRadev/splitjoin.vim
 adamlowe/vim-slurper
 duff/vim-bufonly
