@@ -36,6 +36,7 @@ skype
 sqlitebrowser
 synergy
 tmux
+tree
 unison-gtk
 vim
 vim-gnome
