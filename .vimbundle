@@ -5,6 +5,7 @@ swaroopch/vim-markdown-preview
 tpope/vim-dispatch
 altercation/vim-colors-solarized
 PProvost/vim-ps1
+timabell/vim-cucumber-align-pipes
 
 AndrewRadev/splitjoin.vim
 adamlowe/vim-slurper
