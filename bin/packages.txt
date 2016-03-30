@@ -1,5 +1,6 @@
 ack-grep
 aptitude
+audacity
 build-essential
 cheese
 chromium-browser

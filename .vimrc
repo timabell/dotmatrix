@@ -18,7 +18,7 @@ set splitbelow
 
 set hidden
 
-set guifont=Monaco:h16
+set guifont=Ubuntu\ Mono\ 14
 set guioptions-=T guioptions-=e guioptions-=L guioptions-=r
 set shell=~/.vim/shell-wrapper.sh
 

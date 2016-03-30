@@ -132,3 +132,4 @@ export PATH="/usr/local/heroku/bin:$PATH"
 
 export NVM_DIR="/home/tim/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
+nvm use v5.3.0
