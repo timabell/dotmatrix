@@ -12,6 +12,7 @@ Shougo/neosnippet.vim
 Shougo/neosnippet-snippets
 majutsushi/tagbar
 garyburd/go-explorer
+docunext/closetag.vim
 
 hashrocket/vim-hashrocket
 AndrewRadev/splitjoin.vim
