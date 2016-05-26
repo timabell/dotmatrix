@@ -20,19 +20,9 @@ LSCOLORS=gxgxcxdxbxegedabagacad
 
 export VISUAL EDITOR LESS RI PSQL_EDITOR CLICOLOR LSCOLORS
 
-if [ -t 1 ]; then
-bind 'set bind-tty-special-chars off'
-bind '"\ep": history-search-backward'
-bind '"\en": history-search-forward'
-bind '"\C-w": backward-kill-word'
-bind '"\C-q": "%-\n"'
-fi
-
 export HISTIGNORE="%*"
 
 # [ -z "$PS1" ] || stty -ixon # stty not available on windows
-
-[ -z "$PS1" ] || export PS1="\[\033[01;32m\]\u@\h\[\033[00m\]:\[\033[01;36m\]\w\[\033[00m\]\$(git_prompt_info '(%s)')\n$ "
 
 if [ -f '/usr/local/etc/bash_completion.d/git-completion.bash' ]; then
   source '/usr/local/etc/bash_completion.d/git-completion.bash'
@@ -49,9 +39,6 @@ fi
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
-
-# chromium path for karma test server
-export CHROME_BIN=`which chromium-browser`
 
 # import aliases
 [ ! -f "$HOME/.aliases" ] || . "$HOME/.aliases"
