@@ -24,6 +24,7 @@
 	rmbranch = "!f(){ git branch -d ${1} && git push origin --delete ${1}; };f"
         snapshot = !git stash save "snapshot: $(date)" && git stash apply "stash@{0}"
 	prune = fetch --all --prune
+	pushf = push --force-with-lease
 [branch]
 	autosetuprebase = always
 [color]
