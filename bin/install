@@ -38,7 +38,8 @@ for dotfile in $(./bin/file_list.sh); do
     # use hardlinks on windows, symlinks not supported, was getting a copy
     ln -nf $dotmatrix_path $path 
   else
-    skip_notice $dotfile "exists"
+    skip_notice $dotfile "overwriting"
+    cp -b $dotmatrix_path $path
   fi
 done
 
