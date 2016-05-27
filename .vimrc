@@ -21,7 +21,7 @@ set hidden
 set guifont=Monaco:h16
 set guioptions-=T guioptions-=e guioptions-=L guioptions-=r
 
-set background=dark
+set background=light
 colorscheme solarized
 
 " Load environment (including aliases) for running commands in shell
