@@ -22,7 +22,7 @@ set guifont=Ubuntu\ Mono\ 14
 set guioptions-=T guioptions-=e guioptions-=L guioptions-=r
 set shell=~/.vim/shell-wrapper.sh
 
-set background=dark
+set background=light
 colorscheme solarized
 
 " Load environment (including aliases) for running commands in shell
