@@ -31,6 +31,8 @@ colorscheme solarized
 
 set ignorecase
 
+set tabstop=2
+
 augroup vimrc
   autocmd!
   autocmd GuiEnter * set columns=120 lines=70 number
