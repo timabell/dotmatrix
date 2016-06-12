@@ -32,6 +32,7 @@ colorscheme solarized
 set ignorecase
 
 set tabstop=2
+set shiftwidth=2
 
 augroup vimrc
   autocmd!
