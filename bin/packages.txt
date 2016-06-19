@@ -32,6 +32,7 @@ openssh-server
 pdfshuffler
 python-gpgme
 rapid-photo-downloader
+rsibreak
 shutter
 sieve-connect
 skype
