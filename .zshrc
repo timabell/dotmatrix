@@ -128,7 +128,10 @@ eval "$(rbenv init - zsh --no-rehash)"
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
 
+# golang
 [[ -s "/home/tim/.gvm/scripts/gvm" ]] && source "/home/tim/.gvm/scripts/gvm"
+# my go source code location:
+export GOPATH="$GOPATH:/home/tim/repo/go"
 
 export NVM_DIR="/home/tim/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
