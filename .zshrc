@@ -135,4 +135,4 @@ export GOPATH="$GOPATH:/home/tim/repo/go"
 
 export NVM_DIR="/home/tim/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-nvm use v5.3.0
+# nvm use --silent v5.3.0
