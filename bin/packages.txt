@@ -43,3 +43,4 @@ tree
 unison-gtk
 vim
 vim-gnome
+virtualbox
