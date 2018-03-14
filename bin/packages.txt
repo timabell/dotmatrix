@@ -6,7 +6,6 @@ cheese
 chromium-browser
 dia
 digikam
-dropbox
 eclipse
 exuberant-ctags
 gir1.2-gtop-2.0
@@ -35,7 +34,6 @@ rapid-photo-downloader
 rsibreak
 shutter
 sieve-connect
-skype
 sqlitebrowser
 synergy
 tmux
@@ -43,5 +41,3 @@ tree
 unison-gtk
 vim
 vim-gnome
-virtualbox-nonfree
-xchat
