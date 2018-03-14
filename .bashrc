@@ -55,3 +55,8 @@ export CHROME_BIN=`which chromium-browser`
 
 # import aliases
 [ ! -f "$HOME/.aliases" ] || . "$HOME/.aliases"
+
+[[ -s "/home/tim/.gvm/scripts/gvm" ]] && source "/home/tim/.gvm/scripts/gvm"
+
+# my go source code location:
+export GOPATH="$GOPATH:/home/tim/repo/go"
