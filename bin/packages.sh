@@ -13,3 +13,5 @@ else
   cat packages.txt
   sudo apt-get install `cat packages.txt`
 fi
+echo removing unwanted packages
+sudo apt remove keepassx

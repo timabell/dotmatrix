@@ -24,13 +24,15 @@ iotop
 k4dirstat
 kazam
 kdiff3
-keepassx
+keepass2
 kipi-plugins
 libgoo-canvas-perl
+liblz4-tool
 libreoffice
 mplayer
 openssh-server
 pdfshuffler
+pv
 python-gpgme
 rapid-photo-downloader
 rsibreak
