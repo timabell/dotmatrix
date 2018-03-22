@@ -8,6 +8,7 @@ dia
 digikam
 eclipse
 exuberant-ctags
+firewall-applet
 gir1.2-gtop-2.0
 git
 git-gui
