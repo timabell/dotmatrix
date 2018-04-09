@@ -32,6 +32,7 @@ liblz4-tool
 libreoffice
 mplayer
 openssh-server
+parcellite
 pdfshuffler
 pv
 python-gpgme
