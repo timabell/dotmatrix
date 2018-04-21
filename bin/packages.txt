@@ -41,6 +41,7 @@ rsibreak
 shutter
 sieve-connect
 sqlitebrowser
+syncthing-gtk
 synergy
 tmux
 tree
