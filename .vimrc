@@ -22,7 +22,7 @@ set guifont=Monaco:h16
 set guioptions-=T guioptions-=e guioptions-=L guioptions-=r
 
 set background=light
-colorscheme solarized
+"colorscheme solarized
 
 " Load environment (including aliases) for running commands in shell
 " http://stackoverflow.com/a/18901595/10245
