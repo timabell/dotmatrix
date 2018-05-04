@@ -1,7 +1,7 @@
 [alias]
 	aa = add -A .
-	fa = fetch --all
-	st = status
+	fa = fetch --all --prune
+	st = status --short --branch
 	diffc = diff --cached
 	ci = commit
 	co = checkout
@@ -16,15 +16,20 @@
 	pruneremote = remote prune origin
 	tree = log --graph --oneline --decorate --color --all
 	tr = log --graph --oneline --decorate --color
-	unpushed = !"PROJ_BRANCH=$(git symbolic-ref HEAD | sed 's|refs/heads/||') && git log origin/$PROJ_BRANCH..HEAD"
-	unpulled = !"PROJ_BRANCH=$(git symbolic-ref HEAD | sed 's|refs/heads/||') && git fetch && git log HEAD..origin/$PROJ_BRANCH"
-	add-untracked = !"git status --porcelain | awk '/\\?\\?/{ print $2 }' | xargs git add"
+	fp = log --first-parent --format=format:'%C(auto)%h %an | %C(blue)%s%C(reset) %C(auto)%d'
+	firstparent = log --first-parent --decorate --color
+	unpushed = !PROJ_BRANCH=$(git symbolic-ref HEAD | sed 's|refs/heads/||') && git log origin/$PROJ_BRANCH..HEAD
+	unpulled = !PROJ_BRANCH=$(git symbolic-ref HEAD | sed 's|refs/heads/||') && git fetch && git log HEAD..origin/$PROJ_BRANCH
+	add-untracked = !git status --porcelain | awk '/\\?\\?/{ print $2 }' | xargs git add
 	ln = log --pretty=format:'%Cblue%h %Cred* %C(yellow)%s'
 	reset-authors = commit --amend --reset-author -CHEAD
+	ra = commit --amend --reset-author -CHEAD
+	qe = commit --amend --no-edit --reset-author # quick edit
 	rmbranch = "!f(){ git branch -d ${1} && git push origin --delete ${1}; };f"
-        snapshot = !git stash save "snapshot: $(date)" && git stash apply "stash@{0}"
+	snapshot = !git stash savesnapshot: $(date)&& git stash applystash@{0}
 	prune = fetch --all --prune
 	pushf = push --force-with-lease
+	mt = mergetool
 [branch]
 	autosetuprebase = always
 [color]
@@ -37,6 +42,7 @@
 	singlekey = true
 [merge]
 	summary = true
+	tool = kdiff3
 [merge "bundlelock"]
 	name = lock Gemfile
 	driver = bundle install
@@ -59,6 +65,7 @@
 	autosquash = true
 [diff]
 	algorithm = patience
+	guitool = kdiff3
 [web]
 	browser = chromium-browser
 [include]
