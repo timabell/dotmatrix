@@ -49,3 +49,4 @@ unison-gtk
 vim
 vim-gnome
 virtualbox
+vokoscreen
