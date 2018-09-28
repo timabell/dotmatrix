@@ -60,7 +60,7 @@
 		File.open(%(%A), %(w)) {|f| f.write(b)}\n\
 		exit 1 if b.include?(%(<)*%L)'"
 [push]
-	default = tracking
+	default = current
 [rebase]
 	autosquash = true
 [diff]
