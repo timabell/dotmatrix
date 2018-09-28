@@ -136,3 +136,6 @@ export GOPATH="$GOPATH:/home/tim/repo/go"
 export NVM_DIR="/home/tim/.nvm"
 [ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
 # nvm use --silent v5.3.0
+
+# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
+export PATH="$PATH:$HOME/.rvm/bin"
