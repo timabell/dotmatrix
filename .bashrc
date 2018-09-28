@@ -6,7 +6,7 @@ source "$HOME/.sharedrc"
 # Store 10,000 history entries
 export HISTSIZE=10000
 # Don't store duplicates
-export HISTCONTROL=erasedups
+export HISTCONTROL=erasedups:ignorespace
 # Append to history file
 shopt -s histappend
 
