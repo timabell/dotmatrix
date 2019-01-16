@@ -16,7 +16,7 @@
 	pruneremote = remote prune origin
 	tree = log --graph --oneline --decorate --color --all
 	tr = log --graph --oneline --decorate --color
-	fp = log --first-parent --format=format:'%C(auto)%h %an | %C(blue)%s%C(reset) %C(auto)%d'
+	fp = log --first-parent --format=format:'%C(auto)%h %C(blue)%s%C(reset)| %an  %C(auto)%d'
 	firstparent = log --first-parent --decorate --color
 	unpushed = !PROJ_BRANCH=$(git symbolic-ref HEAD | sed 's|refs/heads/||') && git log origin/$PROJ_BRANCH..HEAD
 	unpulled = !PROJ_BRANCH=$(git symbolic-ref HEAD | sed 's|refs/heads/||') && git fetch && git log HEAD..origin/$PROJ_BRANCH
