@@ -40,6 +40,7 @@ fi
 
 export PATH="$HOME/.rbenv/bin:$PATH"
 export PATH="$HOME/bin:$PATH"
+export PATH="$HOME/bin/dotnet:$PATH"
 if command -v rbenv > /dev/null 2>&1; then
 	eval "$(rbenv init -)"
 fi
