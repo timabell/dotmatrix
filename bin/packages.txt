@@ -23,7 +23,6 @@ hplip-gui
 htop
 iotop
 k4dirstat
-kazam
 kdiff3
 keepass2
 kipi-plugins
