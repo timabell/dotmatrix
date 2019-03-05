@@ -10,4 +10,6 @@ alias be="bundle exec"
 alias gk="gitk &"
 alias gka="gitk --all &"
 
-alias ll="ls -al"
+alias ll="ls -alh"
+alias ta="tig --all"
+alias g="git"
