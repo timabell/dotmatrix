@@ -2,14 +2,25 @@
 # http://stackoverflow.com/a/18901595/10245
 shopt -s expand_aliases
 
+alias ll="ls -alh"
+
 # Get tmux to pass 256 colours through to vim
 # ref http://unix.stackexchange.com/a/1098
 alias tmux="tmux -2"
 
+# rails
 alias be="bundle exec"
+
+# git tools
 alias gk="gitk &"
 alias gka="gitk --all &"
-
-alias ll="ls -alh"
 alias ta="tig --all"
+
+# git
 alias g="git"
+alias gp="git push"
+alias gpf="git push --force-with-lease"
+alias gs="git st"
+alias gd="git diff"
+alias gdc="git diff --cached"
+alias gcp="git commit -p"
