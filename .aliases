@@ -18,9 +18,11 @@ alias ta="tig --all"
 
 # git
 alias g="git"
+alias ga="git add -A"
 alias gp="git push"
 alias gpf="git push --force-with-lease"
 alias gs="git st"
 alias gd="git diff"
 alias gdc="git diff --cached"
+alias gca="git commit -a"
 alias gcp="git commit -p"
