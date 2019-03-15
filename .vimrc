@@ -28,7 +28,7 @@ set background=light
 " http://stackoverflow.com/a/18901595/10245
 " let $BASH_ENV="~/.bashrc"
 
-set ignorecase
+set smartcase
 
 set tabstop=2
 set shiftwidth=2
