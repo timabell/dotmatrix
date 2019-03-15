@@ -49,3 +49,4 @@ vim
 vim-gnome
 virtualbox
 vokoscreen
+zsh
