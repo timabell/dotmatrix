@@ -6,3 +6,4 @@
 *.orig
 *.local
 .idea
+*.user
