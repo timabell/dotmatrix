@@ -18,6 +18,8 @@ alias ta="tig --all"
 
 # git
 alias g="git"
+alias gf="git fa"
+alias gl="git fa && git rebase"
 alias ga="git add -A"
 alias gs="git st"
 alias gd="git diff"
