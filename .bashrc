@@ -59,6 +59,10 @@ export CHROME_BIN=`which chromium-browser`
 
 [[ -s "/home/tim/.gvm/scripts/gvm" ]] && source "/home/tim/.gvm/scripts/gvm"
 
+# Allow alias expansion in non-interactive shells, notably running stuff from within vim
+# http://stackoverflow.com/a/18901595/10245
+shopt -s expand_aliases
+
 # my go source code location:
 export GOPATH="$GOPATH:/home/tim/repo/go"
 
