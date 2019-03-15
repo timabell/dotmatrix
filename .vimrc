@@ -33,6 +33,8 @@ set ignorecase
 set tabstop=2
 set shiftwidth=2
 
+set clipboard=unnamedplus
+
 augroup vimrc
   autocmd!
   autocmd GuiEnter * set columns=120 lines=70 number
