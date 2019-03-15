@@ -122,8 +122,6 @@ zrcl="$HOME/.zshrc.local"
 # remove duplicates in $PATH
 typeset -aU path
 export PATH="$HOME/.bin:$PATH"
-export PATH="$HOME/.rbenv/bin:$PATH"
-eval "$(rbenv init - zsh --no-rehash)"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
