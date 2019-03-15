@@ -35,6 +35,11 @@ set shiftwidth=2
 
 set clipboard=unnamedplus
 
+" visible whitespace
+" https://vi.stackexchange.com/questions/422/displaying-tabs-as-characters/430#430
+set list
+set listchars=eol:⏎,tab:␉·,trail:␠,nbsp:⎵
+
 augroup vimrc
   autocmd!
   autocmd GuiEnter * set columns=120 lines=70 number
