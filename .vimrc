@@ -28,6 +28,9 @@ set background=light
 " http://stackoverflow.com/a/18901595/10245
 " let $BASH_ENV="~/.bashrc"
 
+" ignore case. smartcase doesn't work in intellij plugin
+set ic
+" turn on smart case where availabl
 set smartcase
 
 set tabstop=2
