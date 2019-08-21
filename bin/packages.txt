@@ -13,8 +13,6 @@ gir1.2-gtop-2.0
 git
 git-gui
 gitk
-gnome-mplayer
-gnome-web-photo
 gpxviewer
 gtk-redshift
 gufw
@@ -26,7 +24,6 @@ k4dirstat
 kdiff3
 keepass2
 kipi-plugins
-libgoo-canvas-perl
 liblz4-tool
 libreoffice
 mplayer
@@ -34,7 +31,6 @@ openssh-server
 parcellite
 pdfshuffler
 pv
-python-gpgme
 rapid-photo-downloader
 rsibreak
 shutter
@@ -42,6 +38,7 @@ sieve-connect
 sqlitebrowser
 syncthing-gtk
 synergy
+tig
 tmux
 tree
 unison-gtk
