@@ -37,7 +37,8 @@ autoload colors; colors
 bindkey -e
 
 # options
-setopt appendhistory autocd extendedglob histignoredups nonomatch prompt_subst interactivecomments histignorespace
+setopt appendhistory autocd extendedglob histignoredups nonomatch prompt_subst interactivecomments hist_ignore_space
+setopt hist_ignore_space
 
 # Bindings
 # external editor support
