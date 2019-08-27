@@ -10,4 +10,3 @@ On a clean system without even git, run this to get the packages installed
 
 	bin/install
 	bin/vimbundles.sh
-	bin/solarize.sh
