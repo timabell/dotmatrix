@@ -35,6 +35,7 @@ rapid-photo-downloader
 rsibreak
 shutter
 sieve-connect
+silversearcher-ag
 sqlitebrowser
 syncthing-gtk
 synergy
