@@ -6,6 +6,7 @@ cheese
 chromium-browser
 dia
 digikam
+dropbox
 eclipse
 exuberant-ctags
 firewall-applet
