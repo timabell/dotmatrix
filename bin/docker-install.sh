@@ -8,7 +8,7 @@ dockerComposeVersion=1.24.1
 sudo apt install docker.io curl
 
 echo "Adding current user to 'docker' group, log out and in again for this to take effect. You'll then be able to run docker commands without sudo."
-adduser $USER docker
+sudo adduser $USER docker
 
 # https://stackoverflow.com/a/42273713/10245
 sudo apt-get purge docker-compose
