@@ -73,3 +73,5 @@
 	browser = chromium-browser
 [include]
 	path = ~/.gitconfig.local
+[tig]
+	line-graphics = utf-8
