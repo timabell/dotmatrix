@@ -27,6 +27,7 @@ keepass2
 kipi-plugins
 liblz4-tool
 libreoffice
+mosh
 mplayer
 openssh-server
 parcellite
