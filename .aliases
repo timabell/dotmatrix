@@ -12,6 +12,7 @@ alias tmux="tmux -2"
 # rails
 alias be="bundle exec"
 alias groutes='rake routes | grep $@'
+alias rs="bundle exec rspec -fd"
 
 # git tools
 alias gk="gitk &"
@@ -38,4 +39,7 @@ alias gri="git rebase --interactive"
 alias gp="git push"
 alias gpu="git push --set-upstream"
 alias gpf="git push --force-with-lease"
-alias gm="git many"
+
+# hub
+alias pr="hub pull-request"
+alias prc="hub pr checkout"
