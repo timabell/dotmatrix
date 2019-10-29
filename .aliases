@@ -13,6 +13,7 @@ alias tmux="tmux -2"
 alias be="bundle exec"
 alias groutes='rake routes | grep $@'
 alias rs="bundle exec rspec -fd"
+alias beg="bundle exec guard -i"
 
 # git tools
 alias gk="gitk &"
