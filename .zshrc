@@ -1,6 +1,5 @@
 fpath=(
   $fpath
-  ~/.rvm/scripts/zsh/Completion
   ~/.zsh/functions
   /usr/local/share/zsh/site-functions
 )
@@ -94,9 +93,6 @@ export PSQL_EDITOR='vim -c"setf sql"'
 # set cd autocompletion to commonly visited directories
 cdpath=(~ ~/src $DEV_DIR $HASHROCKET_DIR)
 
-# rvm-install added line:
-if [[ -s "$HOME/.rvm/scripts/rvm" ]] ; then source "$HOME/.rvm/scripts/rvm" ; fi
-
 cuke() {
   local file="$1"
   shift
@@ -117,18 +113,6 @@ export PATH="$HOME/.bin:$PATH"
 
 ### Added by the Heroku Toolbelt
 export PATH="/usr/local/heroku/bin:$PATH"
-
-# golang
-[[ -s "/home/tim/.gvm/scripts/gvm" ]] && source "/home/tim/.gvm/scripts/gvm"
-# my go source code location:
-export GOPATH="$GOPATH:/home/tim/repo/go"
-
-export NVM_DIR="/home/tim/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && . "$NVM_DIR/nvm.sh"  # This loads nvm
-# nvm use --silent v5.3.0
-
-# Add RVM to PATH for scripting. Make sure this is the last PATH variable change.
-export PATH="$PATH:$HOME/.rvm/bin"
 
 # added by travis gem
 [ -f /home/tim/.travis/travis.sh ] && source /home/tim/.travis/travis.sh

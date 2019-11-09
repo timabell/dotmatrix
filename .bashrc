@@ -57,19 +57,9 @@ export CHROME_BIN=`which chromium-browser`
 # import aliases
 [ ! -f "$HOME/.aliases" ] || . "$HOME/.aliases"
 
-[[ -s "/home/tim/.gvm/scripts/gvm" ]] && source "/home/tim/.gvm/scripts/gvm"
-
 # Allow alias expansion in non-interactive shells, notably running stuff from within vim
 # http://stackoverflow.com/a/18901595/10245
 shopt -s expand_aliases
-
-# my go source code location:
-export GOPATH="$GOPATH:/home/tim/repo/go"
-
-export NVM_DIR="$HOME/.nvm"
-[ -s "$NVM_DIR/nvm.sh" ] && \. "$NVM_DIR/nvm.sh"  # This loads nvm
-[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
-
 
 # added by travis gem
 [ -f /home/tim/.travis/travis.sh ] && source /home/tim/.travis/travis.sh
