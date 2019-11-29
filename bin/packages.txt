@@ -29,6 +29,7 @@ liblz4-tool
 libreoffice
 mosh
 mplayer
+okular
 openssh-server
 parcellite
 pdfshuffler
