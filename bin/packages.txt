@@ -20,6 +20,7 @@ gufw
 gwakeonlan
 hplip-gui
 htop
+inkscape
 iotop
 k4dirstat
 kdiff3
