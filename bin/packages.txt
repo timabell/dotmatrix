@@ -30,6 +30,7 @@ liblz4-tool
 libreoffice
 mosh
 mplayer
+nethogs
 okular
 openssh-server
 parcellite
