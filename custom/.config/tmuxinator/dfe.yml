@@ -1,0 +1,12 @@
+# /home/tim/.config/tmuxinator/dfe.yml
+
+name: dfe
+root: ~/repo/dfe
+
+windows:
+  - dfe:
+      layout: tiled # http://manpages.ubuntu.com/manpages/precise/en/man1/tmux.1.html#contenttoc6
+      panes:
+        - "cd teacher-training-api && bundle && bundle exec rails s"
+        - "cd publish-teacher-training && yarn && bundle && bundle exec rails s"
+        - "cd find-teacher-training && yarn && bundle && bundle exec rails s"
