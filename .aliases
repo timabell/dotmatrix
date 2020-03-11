@@ -46,4 +46,6 @@ alias pr="hub pull-request"
 alias prc="hub pr checkout"
 
 # tmuxinators
-alias mpub="tmuxinator dfe"
+alias tm="tmuxinator"
+alias tme="tmuxinator new" # new is also edt
+alias tml="tmuxinator list"
