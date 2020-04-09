@@ -1,0 +1,3 @@
+# https://github.com/asdf-vm/asdf-ruby
+bundler
+pry
