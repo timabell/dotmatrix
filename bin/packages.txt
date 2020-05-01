@@ -46,6 +46,7 @@ syncthing-gtk
 synergy
 tig
 tmux
+tomboy
 tree
 unison-gtk
 vim
