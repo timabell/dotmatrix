@@ -6,6 +6,7 @@ cheese
 chromium-browser
 dia
 digikam
+docker.io
 dropbox
 eclipse
 exuberant-ctags
