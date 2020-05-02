@@ -11,6 +11,7 @@ dropbox
 eclipse
 exuberant-ctags
 firewall-applet
+gcc-mingw-w64-x86-64
 gir1.2-gtop-2.0
 git
 git-gui
