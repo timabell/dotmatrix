@@ -29,12 +29,14 @@ keepass2
 kipi-plugins
 liblz4-tool
 libreoffice
+mkchromecast
 mosh
 mplayer
 nethogs
 okular
 openssh-server
 parcellite
+pavucontrol
 pdfshuffler
 pv
 rapid-photo-downloader
