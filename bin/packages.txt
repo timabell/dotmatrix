@@ -42,7 +42,6 @@ rsibreak
 shutter
 sieve-connect
 silversearcher-ag
-sqlite3
 sqlitebrowser
 syncthing-gtk
 synergy
