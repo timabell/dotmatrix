@@ -5,6 +5,7 @@ blueproximity
 build-essential
 cheese
 chromium-browser
+d-feet
 dia
 digikam
 docker.io
