@@ -1,6 +1,7 @@
 ack-grep
 aptitude
 audacity
+blueproximity
 build-essential
 cheese
 chromium-browser
