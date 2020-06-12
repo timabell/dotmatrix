@@ -5,6 +5,7 @@ blueproximity
 build-essential
 cheese
 chromium-browser
+clamtk
 d-feet
 dia
 digikam
