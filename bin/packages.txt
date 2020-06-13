@@ -15,6 +15,7 @@ eclipse
 exuberant-ctags
 firewall-applet
 gcc-mingw-w64-x86-64
+gimp
 gir1.2-gtop-2.0
 git
 git-gui
