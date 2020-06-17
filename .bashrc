@@ -63,3 +63,5 @@ shopt -s expand_aliases
 
 # added by travis gem
 [ -f /home/tim/.travis/travis.sh ] && source /home/tim/.travis/travis.sh
+
+[ -f ~/.fzf.bash ] && source ~/.fzf.bash

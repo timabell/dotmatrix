@@ -118,3 +118,5 @@ export PATH="/usr/local/heroku/bin:$PATH"
 [ -f /home/tim/.travis/travis.sh ] && source /home/tim/.travis/travis.sh
 
 [ -f $HOME/.asdf/asdf.sh ] && . $HOME/.asdf/asdf.sh
+
+[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
