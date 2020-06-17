@@ -33,7 +33,9 @@ kdiff3
 keepass2
 kipi-plugins
 liblz4-tool
+libreadline-dev
 libreoffice
+libssl-dev
 mkchromecast
 mosh
 mplayer
@@ -62,4 +64,5 @@ vim
 vim-gnome
 virtualbox
 vokoscreen
+zlib1g-dev
 zsh
