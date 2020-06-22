@@ -33,6 +33,11 @@
 	mt = mergetool
 	gl = !git fa && git rebase
 	amend = commit --amend
+	sa = stash apply
+	sl = stash list
+	sp = stash pop
+	ss = stash save
+	ssh = stash show
 [branch]
 	autosetuprebase = always
 [color]
