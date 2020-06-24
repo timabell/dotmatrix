@@ -37,7 +37,7 @@
 	sl = stash list
 	sp = stash pop
 	ss = stash save
-	ssh = stash show
+	ssh = stash show -p
 [branch]
 	autosetuprebase = always
 [color]
