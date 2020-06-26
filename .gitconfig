@@ -12,6 +12,8 @@
 	doff = reset head^
 	ri = rebase --interactive
 	rc = rebase --continue
+	rr = reset
+	rh = reset --hard
 	br = branch
 	pruneremote = remote prune origin
 	tree = log --graph --oneline --decorate --color --all
