@@ -56,4 +56,4 @@ if filereadable(expand('~/.vimrc.local'))
   source ~/.vimrc.local
 endif
 
-let g:vimwiki_list = [{'path':'~/notes', 'format':'markdown', 'ext': '.md'}]
+let g:vimwiki_list = [{'path':'~/notes', 'format':'markdown', 'ext': '.md', 'path_html':'/tmp/vimwiki_html'}]
