@@ -43,6 +43,8 @@ set clipboard=unnamedplus
 set list
 set listchars=eol:⏎,tab:␉·,trail:␠,nbsp:⎵
 
+noremap zz :update<cr>
+
 augroup vimrc
   autocmd!
   autocmd GuiEnter * set columns=120 lines=70 number
