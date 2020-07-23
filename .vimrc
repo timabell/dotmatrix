@@ -43,7 +43,7 @@ set clipboard=unnamedplus
 set list
 set listchars=eol:⏎,tab:␉·,trail:␠,nbsp:⎵
 
-noremap zz :update<cr>
+noremap zs :update<cr>
 
 augroup vimrc
   autocmd!
