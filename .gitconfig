@@ -2,7 +2,7 @@
 	br = branch
 	co = checkout
 	cp = cherry-pick
-	doff = reset head^
+	doff = reset HEAD^
 	fa = fetch --all --prune
 	fp = log --first-parent --format=format:'%C(auto)%h %C(blue)%s%C(reset)| %an  %C(auto)%d'
 	fp-raw = log --first-parent --format=format:'%h %s| %an %d'
