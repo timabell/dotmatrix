@@ -1,46 +1,31 @@
 [alias]
-	aa = add -A .
-	fa = fetch --all --prune
-	st = status --short --branch
-	diffc = diff --cached
-	ci = commit
+	br = branch
 	co = checkout
 	cp = cherry-pick
-	put = push origin HEAD
-	fixup = !sh -c 'git commit -m \"fixup! $(git log -1 --format='\\''%s'\\'' $@)\"' -
-	squash = !sh -c 'git commit -m \"squash! $(git log -1 --format='\\''%s'\\'' $@)\"' -
 	doff = reset head^
-	ri = rebase --interactive
-	rc = rebase --continue
-	rr = reset
-	rh = reset --hard
-	br = branch
-	pruneremote = remote prune origin
-	tree = log --graph --oneline --decorate --color --all
-	tr = log --graph --oneline --decorate --color
+	fa = fetch --all --prune
 	fp = log --first-parent --format=format:'%C(auto)%h %C(blue)%s%C(reset)| %an  %C(auto)%d'
 	fp-raw = log --first-parent --format=format:'%h %s| %an %d'
-	firstparent = log --first-parent --decorate --color
-	unpushed = !PROJ_BRANCH=$(git symbolic-ref HEAD | sed 's|refs/heads/||') && git log origin/$PROJ_BRANCH..HEAD
-	unpulled = !PROJ_BRANCH=$(git symbolic-ref HEAD | sed 's|refs/heads/||') && git fetch && git log HEAD..origin/$PROJ_BRANCH
-	add-untracked = !git status --porcelain | awk '/\\?\\?/{ print $2 }' | xargs git add
-	ln = log --pretty=format:'%Cblue%h %Cred* %C(yellow)%s'
-	reset-authors = commit --amend --reset-author -CHEAD
-	ra = commit --amend --reset-author -CHEAD
-	qe = commit --amend --no-edit --reset-author # quick edit
-	rmbranch = "!f(){ git branch -d ${1} && git push origin --delete ${1}; };f"
-	snapshot = !git stash savesnapshot: $(date)&& git stash applystash@{0}
-	prune = fetch --all --prune
-	pushf = push --force-with-lease
-	mt = mergetool
 	gl = !git fa && git rebase
-	amend = commit --amend
+	mt = mergetool
+	pushf = push --force-with-lease
+	ra = commit --amend --reset-author -CHEAD
+	rba = rebase --abort
+	rbc = rebase --continue
+	rh = reset --hard
+	ri = rebase --interactive
+	rmbranch = "!f(){ git branch -d ${1} && git push origin --delete ${1}; };f"
+	rr = reset
 	sa = stash apply
 	sd = stash drop
 	sl = stash list
 	sp = stash pop
 	ss = stash save
 	ssh = stash show -p
+	sss = !git stash savesnapshot: $(date)&& git stash applystash@{0}
+	st = status --short --branch
+	tr = log --graph --oneline --decorate --color
+	tree = log --graph --oneline --decorate --color --all
 [branch]
 	autosetuprebase = always
 [color]
