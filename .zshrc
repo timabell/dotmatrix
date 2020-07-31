@@ -72,9 +72,6 @@ fi
 PROMPT='%{$fg_bold[green]%}%n@%m%{$reset_color%}:%{$fg_bold[cyan]%}%~%{$reset_color%}$(git_prompt_info "(%s)")
 \$ '
 
-# show non-success exit code in right prompt
-RPROMPT="%(?..{%{$fg[red]%}%?%{$reset_color%}})"
-
 # history
 HISTFILE=~/.zsh_history
 HISTSIZE=5000
