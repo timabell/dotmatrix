@@ -28,6 +28,7 @@ hplip-gui
 htop
 inkscape
 iotop
+jq
 k4dirstat
 kdiff3
 keepass2
