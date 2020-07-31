@@ -8,6 +8,7 @@
 	fp = log --first-parent --format=format:'%C(auto)%h %C(blue)%s%C(reset)| %an  %C(auto)%d'
 	fp-raw = log --first-parent --format=format:'%h %s| %an %d'
 	gl = !git fa && git rebase
+	ll = log --format=format:'%C(auto)%h %C(blue)%s%C(reset)| %an  %C(auto)%d'
 	mt = mergetool
 	pushf = push --force-with-lease
 	ra = commit --amend --reset-author -CHEAD
