@@ -36,8 +36,10 @@
 	excludesfile = ~/.cvsignore
 	editor = vim
 	whitespace = warn
+	pager = delta
 [interactive]
 	singlekey = true
+	diffFilter = delta --color-only
 [merge]
 	summary = true
 	tool = kdiff3
@@ -70,3 +72,6 @@
 	path = ~/.gitconfig.local
 [tig]
 	line-graphics = utf-8
+[delta]
+	line-numbers = true
+	syntax-theme = Solarized (light)
