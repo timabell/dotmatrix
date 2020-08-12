@@ -67,5 +67,6 @@ vim
 vim-gnome
 virtualbox
 vokoscreen
+zeal
 zlib1g-dev
 zsh
