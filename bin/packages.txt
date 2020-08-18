@@ -37,6 +37,7 @@ liblz4-tool
 libreadline-dev
 libreoffice
 libssl-dev
+meld
 mkchromecast
 mosh
 mplayer
