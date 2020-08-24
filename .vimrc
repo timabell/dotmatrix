@@ -59,3 +59,5 @@ if filereadable(expand('~/.vimrc.local'))
 endif
 
 let g:vimwiki_list = [{'path':'~/notes', 'format':'markdown', 'ext': '.md', 'path_html':'/tmp/vimwiki_html'}]
+
+let mapleader=","
