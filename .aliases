@@ -19,7 +19,6 @@ alias beg="bundle exec guard -i"
 # git tools
 alias gk="gitk &"
 alias gka="gitk --all &"
-alias ta="tig --all"
 
 # git
 alias g="git"
@@ -36,7 +35,8 @@ alias gc="git commit -v"
 alias gca="git commit -av"
 alias gcp="git commit -pv"
 alias gg="tig" # git graph
-alias gga="tig --all" # git graph
+alias gG="tig --all" # git graph
+alias GG="tig --all" # git graph
 alias gra="git ra"
 alias graa="git ra -a"
 alias gri="git ri"
