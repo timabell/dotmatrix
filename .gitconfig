@@ -24,7 +24,7 @@
 	sp = stash pop
 	ss = stash save
 	ssh = stash show -p
-	sss = !git stash savesnapshot: $(date)&& git stash applystash@{0}
+	sss = !git stash save "savesnapshot: $(date)" && git stash apply 'stash@{0}'
 	st = status --short --branch
 	tr = log --graph --oneline --decorate --color
 	tree = log --graph --oneline --decorate --color --all
