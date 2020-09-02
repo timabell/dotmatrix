@@ -4,7 +4,7 @@
 	co = checkout
 	cp = cherry-pick
 	doff = reset HEAD^
-	fa = fetch --all --prune
+	fa = fetch --all --prune --prune-tags
 	fp = log --first-parent --format=format:'%C(auto)%h %C(blue)%s%C(reset)| %an  %C(auto)%d'
 	fp-raw = log --first-parent --format=format:'%h %s| %an %d'
 	gl = !git fa && git rebase
