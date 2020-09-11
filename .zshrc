@@ -16,6 +16,8 @@ export LESS=FRX
 # make with the nice completion
 autoload -U compinit; compinit
 
+autoload -U ff
+
 # Completion for kill-like commands
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#) ([0-9a-z-]#)*=01;34=0=01'
 zstyle ':completion:*:*:*:*:processes' command "ps -u `whoami` -o pid,user,comm -w -w"
