@@ -6,6 +6,7 @@ alias cd..='cd ..'
 alias ..='cd ..'
 alias trash='gio trash'
 alias xx='chmod +x'
+alias agh='ag --hidden'
 
 # Get tmux to pass 256 colours through to vim
 # ref http://unix.stackexchange.com/a/1098
