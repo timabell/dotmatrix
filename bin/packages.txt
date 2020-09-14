@@ -59,6 +59,7 @@ sqlite3
 sqlitebrowser
 syncthing-gtk
 synergy
+telegram-desktop
 tig
 tmux
 tomboy
