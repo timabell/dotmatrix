@@ -59,5 +59,6 @@ if filereadable(expand('~/.vimrc.local'))
 endif
 
 let g:vimwiki_list = [{'path':'~/notes', 'format':'markdown', 'ext': '.md', 'path_html':'/tmp/vimwiki_html'}]
+let g:vimwiki_url_maxsave=0 " turn off link shortner https://github.com/vimwiki/vimwiki/issues/312#issuecomment-284853877
 
 let mapleader=","
