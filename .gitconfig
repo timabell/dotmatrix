@@ -15,6 +15,7 @@
 	ra = commit --amend --reset-author -CHEAD
 	rba = rebase --abort
 	rbc = rebase --continue
+	rbo = rebase --onto
 	rh = reset --hard
 	ri = rebase --interactive
 	rmbranch = "!f(){ git branch -d ${1} && git push origin --delete ${1}; };f"
