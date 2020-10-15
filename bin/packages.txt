@@ -41,6 +41,7 @@ meld
 mkchromecast
 mosh
 mplayer
+nemo-dropbox
 nethogs
 okular
 openssh-server
