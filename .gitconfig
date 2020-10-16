@@ -1,6 +1,7 @@
 [alias]
 	amend = commit --amend
 	br = branch
+	bra = branch --all
 	bd = branch -D
 	co = checkout
 	cp = cherry-pick
