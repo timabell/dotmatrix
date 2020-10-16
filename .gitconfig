@@ -7,8 +7,8 @@
 	cp = cherry-pick
 	doff = reset HEAD^
 	fa = fetch --all --prune --prune-tags
-	fp = log --first-parent --format=format:'%C(auto)%h %C(blue)%s%C(reset)| %an  %C(auto)%d'
-	fp-raw = log --first-parent --format=format:'%h %s| %an %d'
+	fp = log --first-parent --format=format:'%C(auto)%h %C(blue)%s%C(reset)| %an  %C(auto)%d %cd'
+	fp-raw = log --first-parent --format=format:'%h %s| %an %d %cd'
 	gl = !git fa && git rebase
 	ll = log --format=format:'%C(auto)%h %C(blue)%s%C(reset)| %an  %C(auto)%d'
 	mt = mergetool
