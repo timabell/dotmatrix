@@ -31,6 +31,7 @@
 	st = status --short --branch
 	tr = log --graph --oneline --decorate --color
 	tree = log --graph --oneline --decorate --color --all
+	trf = log --graph --oneline --decorate --color --first-parent
 [branch]
 	autosetuprebase = always
 [color]
