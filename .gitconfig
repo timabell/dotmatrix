@@ -21,6 +21,7 @@
 	ri = rebase --interactive
 	rmb = "!f(){ git branch -D ${1} && git push origin --delete ${1}; };f"
 	rr = reset
+	rrw = checkout -- . # reset working copy
 	sa = stash apply
 	sd = stash drop
 	sl = stash list
