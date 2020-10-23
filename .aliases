@@ -51,6 +51,7 @@ alias gpf="git push --force-with-lease"
 # hub
 alias pr="hub pull-request"
 alias prc="hub pr checkout"
+alias gh="hub browse"
 
 # tmuxinators
 alias tm="tmuxinator"
