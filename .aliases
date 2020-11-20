@@ -1,5 +1,5 @@
-alias ll="ls -lh"
-alias la="ls -alh"
+alias ll="ls -lh --color"
+alias la="ls -alh --color"
 alias md='mkdir -p'
 alias rd='rmdir'
 alias cd..='cd ..'
