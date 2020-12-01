@@ -2,6 +2,7 @@
 	amend = commit --amend
 	br = branch
 	bra = branch --all
+	brm = branch --all --merged
 	bd = branch -D
 	co = checkout
 	cp = cherry-pick
