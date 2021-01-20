@@ -1,12 +1,12 @@
 alias ll="ls -lh --color"
-alias la="ls -alh --color"
+alias la="ls -alh --color" # la = list all
 alias md='mkdir -p'
 alias rd='rmdir'
 alias cd..='cd ..'
 alias ..='cd ..'
 alias trash='gio trash'
 alias xx='chmod +x'
-alias agh='ag --hidden'
+alias agh='ag --hidden' # ag is the silver searcher
 
 # Get tmux to pass 256 colours through to vim
 # ref http://unix.stackexchange.com/a/1098
@@ -23,6 +23,13 @@ alias gk="gitk &"
 alias gka="gitk --all &"
 
 # git
+# mnemonics:
+# * gf = git fetch
+# * gl = get latest
+# * gs = get status
+# * gshq = git show quiet
+# * gdcq = git diff cached quiet
+# * gg = git graph
 alias g="git"
 alias gf="git fa"
 alias gl="git fa && git rebase"
@@ -31,18 +38,21 @@ alias ga="git add -A"
 alias gap="git add -p"
 alias gb="git checkout -b"
 alias gs="git st"
-alias gsh="git show"
-alias gd="git diff"
-alias gdc="git diff --cached"
+alias gsh="git show --patch-with-stat"
+alias gshq="git show --patch-with-stat -- ':!package-lock.json' ':!yarn.lock'"
+alias gd="git diff --patch-with-stat"
+alias gdq="git diff --patch-with-stat -- ':!package-lock.json' ':!yarn.lock'"
+alias gdc="git diff --patch-with-stat --cached"
+alias gdcq="git diff --patch-with-stat --cached -- ':!package-lock.json' ':!yarn.lock'"
 alias gc="git commit -v"
 alias gca="git commit -av"
 alias gcp="git commit -pv"
-alias gg="tig" # git graph
-alias gG="tig --all" # git graph
-alias GG="tig --all" # git graph
-alias gra="git ra"
-alias graa="git ra -a"
-alias gri="git ri"
+alias gg="tig"
+alias gG="tig --all"
+alias GG="tig --all"
+alias gra="git ra" # squash staged files into last commit
+alias graa="git ra -a" # squash all changes into last commit
+alias gri="git ri" # gri = git rebase interactive (you need a revision e.g. @^^ )
 alias gr="git rebase"
 alias gp="git push"
 alias gpu="git push --set-upstream"
