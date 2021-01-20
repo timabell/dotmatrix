@@ -17,6 +17,7 @@ export LESS=FRX
 autoload -U compinit; compinit
 
 autoload -U ff
+autoload -U gx
 
 # Completion for kill-like commands
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#) ([0-9a-z-]#)*=01;34=0=01'

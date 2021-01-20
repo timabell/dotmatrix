@@ -1,0 +1,13 @@
+function gx() {
+	echo ''
+	echo '####### STATUS ######'
+	git st
+
+	echo ''
+	echo '####### DIFF ######'
+	git diff --patch-with-stat
+
+	echo ''
+	echo '####### STAGED ######'
+	git diff --patch-with-stat --cached
+}
