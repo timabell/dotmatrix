@@ -1,0 +1,3 @@
+function ffe() {
+	find . -iregex "$1"
+}

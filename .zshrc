@@ -17,6 +17,7 @@ export LESS=FRX
 autoload -U compinit; compinit
 
 autoload -U ff
+autoload -U ffe
 autoload -U gx
 
 # Completion for kill-like commands
