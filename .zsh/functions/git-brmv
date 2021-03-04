@@ -1,0 +1,15 @@
+function git-brmv() {
+	# https://stackoverflow.com/a/10915331/10245
+	existing_branch=$(git symbolic-ref --short HEAD)
+
+	readonly new_name=${1:?"New branch name required as first argument"}
+
+	echo "Renaming $existing_branch to $new_name locally and on replacing on server..."
+
+	echo "Renaming locally..."
+	git branch -m $new_name
+	echo "Creating branch on server..."
+  git push --set-upstream
+	echo "Deleting old branch from server (origin assumed)..."
+  git push --delete origin $existing_branch
+}
