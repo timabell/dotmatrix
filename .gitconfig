@@ -3,6 +3,7 @@
 	br = branch
 	bra = branch --all
 	brm = branch --all --merged
+	bd = branch -D
 	brd = branch -D
 	co = checkout
 	cp = cherry-pick
