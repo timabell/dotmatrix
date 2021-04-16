@@ -63,9 +63,9 @@ alias gpu="git push --set-upstream"
 alias gpf="git push --force-with-lease"
 
 # hub
-alias pr="hub pull-request"
-alias prc="hub pr checkout"
-alias gh="hub browse"
+alias pr="hub pull-request" # I tried the gh-cli one and it's not nearly as nice
+alias prc="gh pr checkout"
+alias ghw="gh repo view --web"
 
 # tmuxinators
 alias tm="tmuxinator"
