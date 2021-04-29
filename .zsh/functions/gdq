@@ -1,0 +1,3 @@
+function gdq() {
+	git diff --patch-with-stat $1 -- ':!package-lock.json' ':!yarn.lock' ':!Gemfile.lock'
+}

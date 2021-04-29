@@ -20,6 +20,7 @@ autoload -U ff
 autoload -U ffe
 autoload -U gx
 autoload -U git-brmv
+autoload -U gdq
 
 # Completion for kill-like commands
 zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#) ([0-9a-z-]#)*=01;34=0=01'
