@@ -16,7 +16,7 @@ alias tmux="tmux -2"
 alias be="bundle exec"
 alias groutes='rake routes | ag $@'
 alias rs="NO_COVER=true bundle exec rspec -fd"
-alias beg="bundle exec guard -i"
+alias beg="bundle exec guard"
 alias rc="rubocop -a"
 
 # git tools
