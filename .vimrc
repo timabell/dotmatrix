@@ -20,7 +20,6 @@ set hidden
 
 set guifont=Ubuntu\ Mono\ 14
 set guioptions-=T guioptions-=e guioptions-=L guioptions-=r
-set shell=~/.vim/shell-wrapper.sh
 
 set background=light
 
