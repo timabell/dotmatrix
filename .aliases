@@ -33,7 +33,6 @@ alias gka="gitk --all &"
 # * gshq = git show quiet
 # * gdcq = git diff cached quiet
 # * gg = git graph
-# * sgp = safe git push
 alias g="git"
 alias gf="git fa"
 alias gl="git fa && git rebase"
@@ -63,7 +62,8 @@ alias graa="git ra -a" # squash all changes into last commit
 alias gri="git ri" # gri = git rebase interactive (you need a revision e.g. @^^ )
 alias gr="git rebase"
 alias gp="git push"
-alias sgp="rc && rs && git push"
+alias safepush="rc && rs && git push"
+alias sp=safepush
 alias gpu="git push --set-upstream"
 alias gpf="git push --force-with-lease"
 
