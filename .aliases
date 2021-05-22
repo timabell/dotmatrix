@@ -14,11 +14,13 @@ alias tmux="tmux -2"
 
 # rails
 alias be="bundle exec"
+alias beg="bundle exec guard"
 alias groutes='rake routes | ag $@'
+alias rc="rubocop -a"
 alias rs="bundle exec rspec"
 alias rsd="NO_COVER=true bundle exec rspec -fd"
-alias beg="bundle exec guard"
-alias rc="rubocop -a"
+alias safepush="rubocop -a --fail-level autocorrect && rs && git push"
+alias sp=safepush
 
 # git tools
 alias gk="gitk &"
@@ -62,8 +64,6 @@ alias graa="git ra -a" # squash all changes into last commit
 alias gri="git ri" # gri = git rebase interactive (you need a revision e.g. @^^ )
 alias gr="git rebase"
 alias gp="git push"
-alias safepush="rubocop -a --fail-level autocorrect && rs && git push"
-alias sp=safepush
 alias gpu="git push --set-upstream"
 alias gpf="git push --force-with-lease"
 
