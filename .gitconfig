@@ -1,10 +1,11 @@
 [alias]
 	amend = commit --amend
+	bd = branch -D
 	br = branch
 	bra = branch --all
-	brm = branch --all --merged
-	bd = branch -D
 	brd = branch -D
+	brm = branch --all --merged
+	brr = branch --remote
 	co = checkout
 	cp = cherry-pick
 	doff = reset HEAD^
