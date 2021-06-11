@@ -16,10 +16,10 @@ alias tmux="tmux -2"
 alias be="bundle exec"
 alias beg="bundle exec guard"
 alias groutes='rake routes | ag $@'
-alias rc="rubocop -a"
+alias rc="bundle exec rubocop -a"
 alias rs="bundle exec rspec"
 alias rsd="NO_COVER=true bundle exec rspec -fd"
-alias safepush="rubocop -a --fail-level autocorrect && rs && git push"
+alias safepush="bundle exec rubocop -a --fail-level autocorrect && rs && git push"
 alias sp=safepush
 alias spf="safepush --force-with-lease"
 alias spu="safepush --set-upstream"
