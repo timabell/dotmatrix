@@ -68,6 +68,7 @@ alias gr="git rebase"
 alias gp="git push"
 alias gpu="git push --set-upstream"
 alias gpf="git push --force-with-lease"
+alias tb="tig blame"
 
 # hub
 alias pr="hub pull-request" # I tried the gh-cli one and it's not nearly as nice
