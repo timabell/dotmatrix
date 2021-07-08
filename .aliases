@@ -79,3 +79,6 @@ alias ghw="gh repo view --web"
 alias tm="tmuxinator"
 alias tme="tmuxinator new" # new is also edt
 alias tml="tmuxinator list"
+
+# k8s
+alias kc=kubectl
