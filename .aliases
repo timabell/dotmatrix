@@ -73,7 +73,7 @@ alias tb="tig blame"
 # hub
 alias pr="hub pull-request" # I tried the gh-cli one and it's not nearly as nice
 alias prc="gh pr checkout"
-alias ghw="gh repo view --web"
+alias ghw="hub browse"
 
 # tmuxinators
 alias tm="tmuxinator"
