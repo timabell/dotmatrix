@@ -1,4 +1,6 @@
 ack-grep
+android-tools-adb
+android-tools-fastboot
 aptitude
 audacity
 blueproximity
