@@ -3,6 +3,7 @@ android-tools-adb
 android-tools-fastboot
 aptitude
 audacity
+backintime-qt4
 blueproximity
 build-essential
 cheese
