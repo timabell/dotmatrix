@@ -11,11 +11,11 @@ sudo apt remove keepassx
 if [ "$1" = "single" ]; then
   for x in `cat packages.txt`; do
     echo "installing packages $x"
-    sudo apt install $x
+    sudo apt install -y $x
   done
 else
   echo "installing packages:"
   cat packages.txt
-  sudo apt install `cat packages.txt`
+  sudo apt install -y `cat packages.txt`
 fi
 
