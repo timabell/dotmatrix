@@ -53,7 +53,6 @@ pv
 rapid-photo-downloader
 rsibreak
 screenkey
-shutter
 sieve-connect
 silversearcher-ag
 slop
@@ -64,7 +63,6 @@ tig
 tmux
 tree
 vim
-vim-gnome
 virtualbox
 vokoscreen
 zeal
