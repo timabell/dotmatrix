@@ -53,6 +53,7 @@ pv
 rapid-photo-downloader
 rsibreak
 screenkey
+shutter
 sieve-connect
 silversearcher-ag
 slop
