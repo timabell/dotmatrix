@@ -4,7 +4,6 @@ android-tools-fastboot
 aptitude
 audacity
 backintime-qt4
-blueproximity
 build-essential
 cheese
 chromium-browser
@@ -14,7 +13,6 @@ dia
 digikam
 docker.io
 dropbox
-eclipse
 exuberant-ctags
 firewall-applet
 gcc-mingw-w64-x86-64
@@ -26,7 +24,6 @@ gitk
 gpxviewer
 gtk-redshift
 gufw
-gwakeonlan
 hplip-gui
 htop
 inkscape
@@ -63,10 +60,8 @@ slop
 sqlite3
 sqlitebrowser
 syncthing-gtk
-synergy
 tig
 tmux
-tomboy
 tree
 vim
 vim-gnome
