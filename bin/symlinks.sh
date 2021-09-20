@@ -1,5 +1,5 @@
 cd ~
 ln -s ~/Documents/programs/bin
-ln -s ~/repo/scripts
+ln -s ~/Phone/vimwiki notes
 ln -s ~/repo/dotmatrix dm
-ln -s ~/oneplus5t-home/vimwiki notes
+ln -s ~/repo/scripts
