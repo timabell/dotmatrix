@@ -64,6 +64,7 @@ tig
 tmux
 tree
 vim
+vim-gtk
 virtualbox
 vokoscreen
 zeal
