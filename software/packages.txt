@@ -45,6 +45,7 @@ mplayer
 nemo-dropbox
 nethogs
 nvidia-prime
+obs-studio
 okular
 openssh-server
 parcellite
