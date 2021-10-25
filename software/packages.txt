@@ -24,6 +24,7 @@ gitk
 gpxviewer
 gtk-redshift
 gufw
+guvcview
 hashdeep
 hplip-gui
 htop
@@ -65,6 +66,7 @@ syncthing-gtk
 tig
 tmux
 tree
+v4l-utils
 vim
 vim-gtk
 virtualbox
