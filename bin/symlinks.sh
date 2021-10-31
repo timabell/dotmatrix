@@ -1,3 +1,4 @@
+#!/bin/sh -v
 cd ~
 ln -s ~/Documents/programs/bin
 ln -s ~/Phone/vimwiki notes
