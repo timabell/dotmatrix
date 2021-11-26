@@ -13,6 +13,8 @@ export ZLS_COLORS=$LSCOLORS
 export LC_CTYPE=en_US.UTF-8
 export LESS=FRX
 
+export DOTNET_CLI_TELEMETRY_OPTOUT=1
+
 # make with the nice completion
 autoload -U compinit; compinit
 
