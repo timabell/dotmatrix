@@ -52,6 +52,7 @@ openssh-server
 parcellite
 pavucontrol
 pdfshuffler
+photocollage
 pv
 rapid-photo-downloader
 rsibreak
