@@ -1,5 +1,4 @@
 [alias]
-	amend = commit --amend
 	bd = branch -D
 	br = branch
 	bra = branch --all
