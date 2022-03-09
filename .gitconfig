@@ -84,3 +84,6 @@
 [delta]
 	line-numbers = true
 	syntax-theme = Solarized (light)
+[credential]
+	helper = 
+	helper = C:/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe
