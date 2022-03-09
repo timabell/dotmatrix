@@ -148,9 +148,9 @@ git_prompt_info () {
     fi
     d=''
     s=$(command git status --porcelain 2> /dev/null)
-    [[ $s =~ "$newfile" ]] && d+='+'
-    [[ $s =~ "M " ]] && d+='*'
-    [[ $s =~ "D " ]] && d+='-'
+    #[[ $s =~ "$newfile" ]] && d+='+' # windows bug
+    #[[ $s =~ "M " ]] && d+='*'
+    #[[ $s =~ "D " ]] && d+='-'
 
     printf "${1-"(%s) "}" "${b##refs/heads/}$r$d"
   fi
