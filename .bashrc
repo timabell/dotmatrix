@@ -1,7 +1,7 @@
 # ~/.bashrc
 # vim:set ft=sh sw=2 sts=2:
 
-source "$HOME/.sharedrc"
+# source "$HOME/.sharedrc" # disabled, breaking git's paths to vim in windows. argh
 
 # Store 10,000 history entries
 export HISTSIZE=10000
