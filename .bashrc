@@ -61,4 +61,4 @@ shopt -s expand_aliases
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
 
-export GIT_SSH=/c/Program\ Files\/Git/usr/bin/ssh.exe # because windows couldn't find it for some reason on the latest broken install
+export GIT_SSH=C:/Windows/System32/OpenSSH/ssh.exe # use windows build in ssh that has an agent in windows services, don't forget to ssh-add your key - https://stackoverflow.com/questions/370030/why-git-cant-remember-my-passphrase-under-windows/58784438#58784438
