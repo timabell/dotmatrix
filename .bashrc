@@ -60,3 +60,5 @@ shopt -s expand_aliases
 [ -f /home/tim/.travis/travis.sh ] && source /home/tim/.travis/travis.sh
 
 [ -f ~/.fzf.bash ] && source ~/.fzf.bash
+
+export GIT_SSH=/c/Program\ Files\/Git/usr/bin/ssh.exe # because windows couldn't find it for some reason on the latest broken install
