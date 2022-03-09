@@ -44,8 +44,10 @@
 	excludesfile = ~/.cvsignore
 	editor = vim
 	whitespace = warn
+	pager = delta
 [interactive]
 	singlekey = true
+	diffFilter = delta --color-only
 [merge]
 	summary = true
 	tool = kdiff3
