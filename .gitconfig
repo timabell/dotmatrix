@@ -5,6 +5,7 @@
 	brd = branch -D
 	brm = branch --all --merged
 	brr = branch --remote
+	brs = "for-each-ref --format='%(refname:short) %(upstream:track) %(upstream:remotename)' refs/heads"
 	brw = "for-each-ref --format='%1B[0;31m%(refname:short)%1B[m | %(authorname) | %(committerdate)' --sort=committerdate refs/remotes"
 	co = checkout
 	cp = cherry-pick
