@@ -1,6 +1,6 @@
 [alias]
 	bd = branch -D
-	br = branch
+	br = brs
 	bra = branch --all
 	brd = branch -D
 	brm = branch --all --merged
