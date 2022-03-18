@@ -51,6 +51,7 @@ okular
 openssh-server
 parcellite
 pavucontrol
+pavumeter
 pdfshuffler
 photocollage
 pv
