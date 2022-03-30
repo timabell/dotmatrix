@@ -61,6 +61,7 @@ screenkey
 shutter
 sieve-connect
 silversearcher-ag
+sloccount
 slop
 sqlite3
 sqlitebrowser
