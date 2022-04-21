@@ -156,17 +156,6 @@ git_prompt_info () {
   fi
 }
 
-gco () {
-  if [[ $1 == '.' ]]; then
-    git add -A
-    git commit -m "CHECKING OUT CURRENT DIRECTORY" -q
-    git reset HEAD^ -q
-    git checkout .
-  else
-    git checkout "$@"
-  fi
-}
-
 gcr() {
   git checkout -b $1 origin/$1
 }
