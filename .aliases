@@ -60,6 +60,7 @@ alias gdcq="git diff --patch-with-stat --cached -- ':!package-lock.json' ':!yarn
 alias gc="git commit -v"
 alias gca="git commit -av"
 alias gcam="git commit -av -m"
+alias gcm="git commit -v -m"
 alias gcp="git commit -pv"
 alias gg="tig"
 alias ggf="tig --first-parent -m"
