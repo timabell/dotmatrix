@@ -24,6 +24,11 @@ alias sp=safepush
 alias spf="safepush --force-with-lease"
 alias spu="safepush --set-upstream"
 
+# rust
+alias c="cargo"
+alias cr="cargo run"
+
+
 # git tools
 alias gk="gitk &"
 alias gka="gitk --all &"
