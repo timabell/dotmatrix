@@ -27,6 +27,7 @@ alias spu="safepush --set-upstream"
 # rust
 alias c="cargo"
 alias cr="cargo run"
+alias cb="cargo build"
 
 
 # git tools
