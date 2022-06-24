@@ -1,4 +1,5 @@
 [alias]
+	b = branch
 	bd = branch -D
 	br = brs
 	bra = branch --all
