@@ -28,6 +28,7 @@ alias spu="safepush --set-upstream"
 alias c="cargo"
 alias cr="cargo run"
 alias cb="cargo build"
+alias cf="cargo fmt"
 
 
 # git tools
