@@ -4,7 +4,7 @@
 	br = brs
 	bra = branch --all
 	brd = branch -D
-	brdd = "!f(){ git branch -D ${1} && git push origin --delete ${1}; };f" # delete local+origin branch
+	brdd = "!f(){ git branch -D ${1}; git push origin --delete ${1}; };f" # delete local+origin branch
 	brm = branch --all --merged
 	brr = branch --remote
 	brs = "for-each-ref --format='%(refname:short) %(upstream:track) %(upstream:remotename)' refs/heads"
