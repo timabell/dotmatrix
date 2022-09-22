@@ -12,7 +12,7 @@
 	co = checkout
 	cp = cherry-pick
 	doff = reset HEAD^
-	fa = fetch --all --prune --prune-tags
+	fa = fetch --all --prune
 	fp = log --first-parent --format=format:'%C(auto)%h %C(blue)%s%C(reset)| %an  %C(auto)%d %cd'
 	fp-raw = log --first-parent --format=format:'%h %s| %an %d %cd'
 	ll = log --format=format:'%C(auto)%h %C(blue)%s%C(reset)| %an  %C(auto)%d'
