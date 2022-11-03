@@ -77,7 +77,7 @@ if [ -z "$TMUX" ]; then
 fi
 
 # prompt
-PROMPT='%{$fg_bold[green]%}%n@%m%{$reset_color%}:%{$fg_bold[cyan]%}%~%{$reset_color%}$(git_prompt_info "(%s)")
+PROMPT='%{$bg[green]%}%{$fg_bold[white]%} %n@%m%{$reset_color%}%{$bg[green]%}:%{$fg_bold[white]%}%~ %{$reset_color%} $(git_prompt_info "(%s)")
 \$ '
 
 # history
