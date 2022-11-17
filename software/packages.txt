@@ -54,6 +54,7 @@ pavucontrol
 pavumeter
 pdfshuffler
 photocollage
+powertop
 pv
 rapid-photo-downloader
 rsibreak
