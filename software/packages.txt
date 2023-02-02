@@ -33,7 +33,7 @@ iotop
 jq
 k4dirstat
 kdiff3
-keepass2
+keepassxc
 kipi-plugins
 liblz4-tool
 libreadline-dev
