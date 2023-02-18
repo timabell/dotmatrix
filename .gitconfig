@@ -88,3 +88,5 @@
 	syntax-theme = Solarized (light)
 [user]
 	signingkey = 74D42A4C905507C54A7E3C9C26C6E08728CDF8EA
+[commit]
+	gpgsign = true
