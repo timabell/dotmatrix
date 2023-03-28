@@ -1,6 +1,7 @@
 ack-grep
 android-tools-adb
 android-tools-fastboot
+apt-file
 aptitude
 audacity
 backintime-qt4
