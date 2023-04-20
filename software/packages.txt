@@ -16,6 +16,7 @@ docker.io
 dropbox
 exuberant-ctags
 firewall-applet
+flowblade
 gcc-mingw-w64-x86-64
 gimp
 gir1.2-gtop-2.0
