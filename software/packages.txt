@@ -46,6 +46,7 @@ mkchromecast
 mosh
 mplayer
 nemo-dropbox
+neofetch
 nethogs
 nvidia-prime
 obs-studio
