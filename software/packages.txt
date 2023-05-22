@@ -30,7 +30,6 @@ guvcview
 hashdeep
 hplip-gui
 htop
-inkscape
 iotop
 jq
 k4dirstat
