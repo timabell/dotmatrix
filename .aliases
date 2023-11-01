@@ -70,11 +70,11 @@ alias gca="git commit -av"
 alias gcam="git commit -av -m"
 alias gcm="git commit -v -m"
 alias gcp="git commit -pv"
-alias gg="tig"
-alias ggu="tig @{u}"
-alias ggf="tig --first-parent -m"
-alias gG="tig --all"
-alias GG="tig --all"
+alias gg="tig --stat=200,180"
+alias ggu="tig @{u} --stat=200,180"
+alias ggf="tig --first-parent -m --stat=200,180"
+alias gG="tig --all --stat=200,180"
+alias GG="tig --all --stat=200,180"
 alias gra="git ra" # squash staged files into last commit
 alias graa="git ra -a" # squash all changes into last commit
 alias gri="git ri" # gri = git rebase interactive (you need a revision e.g. @^^ )
