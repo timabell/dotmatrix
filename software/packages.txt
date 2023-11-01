@@ -1,6 +1,7 @@
 ack-grep
 android-tools-adb
 android-tools-fastboot
+apt-file
 aptitude
 audacity
 backintime-qt4
@@ -15,6 +16,7 @@ docker.io
 dropbox
 exuberant-ctags
 firewall-applet
+flowblade
 gcc-mingw-w64-x86-64
 gimp
 gir1.2-gtop-2.0
@@ -28,12 +30,11 @@ guvcview
 hashdeep
 hplip-gui
 htop
-inkscape
 iotop
 jq
 k4dirstat
 kdiff3
-keepass2
+keepassxc
 kipi-plugins
 liblz4-tool
 libreadline-dev
@@ -44,6 +45,7 @@ mkchromecast
 mosh
 mplayer
 nemo-dropbox
+neofetch
 nethogs
 nvidia-prime
 obs-studio

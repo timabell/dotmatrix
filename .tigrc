@@ -1,1 +1,3 @@
 bind generic w :toggle wrap-lines
+set log-options = --show-signature
+set diff-options = --show-signature

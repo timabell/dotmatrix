@@ -70,7 +70,7 @@
 		File.open(%(%A), %(w)) {|f| f.write(b)}\n\
 		exit 1 if b.include?(%(<)*%L)'"
 [push]
-	default = current
+	default = upstream
 [rebase]
 	autosquash = true
 	autoStash = true
@@ -88,3 +88,7 @@
 	syntax-theme = Solarized (light)
 [credential]
 	helper = C:/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe
+[user]
+	signingkey = 74D42A4C905507C54A7E3C9C26C6E08728CDF8EA
+[commit]
+	gpgsign = true
