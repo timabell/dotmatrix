@@ -15,7 +15,7 @@
 	fa = fetch --all --prune
 	fp = log --first-parent --format=format:'%C(auto)%h %C(blue)%s%C(reset)| %an  %C(auto)%d %cd'
 	fp-raw = log --first-parent --format=format:'%h %s| %an %d %cd'
-	ll = log --format=format:'%C(auto)%h %C(blue)%s%C(reset)| %an  %C(auto)%d'
+	ll = log --format=format:'%C(auto)%h %cd %C(blue)\"%s\"%C(reset) 📝 %an %C(auto)%d' --date='format:%Y-%m-%d %H:%M'
 	mt = mergetool
 	pushf = push --force-with-lease
 	ra = commit --amend --reset-author -CHEAD
