@@ -81,8 +81,6 @@
 	browser = chromium-browser
 [include]
 	path = ~/.gitconfig.local
-[tig]
-	line-graphics = utf-8
 [delta]
 	line-numbers = true
 	syntax-theme = Solarized (light)
