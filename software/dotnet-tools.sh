@@ -12,5 +12,10 @@ dotnet tool install --global dotnet-outdated-tool # for upgrading nugets in a pr
 # https://github.com/Webreaper/CentralisedPackageConverter
 dotnet tool install --global centralisedpackageconverter
 
+# https://github.com/GitTools/GitVersion
+dotnet tool install --global GitVersion.Tool # semver tooling
+
+# https://github.com/natemcmaster/dotnet-serve
+dotnet tool install --global dotnet-serve # serve any folder over http
 
 dotnet tool install --global dotnet-ef
