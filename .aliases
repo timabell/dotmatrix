@@ -80,7 +80,7 @@ alias graa="git ra -a" # squash all changes into last commit
 alias gri="git ri" # gri = git rebase interactive (you need a revision e.g. @^^ )
 alias gr="git rebase"
 alias gp="git push"
-alias gpu="git push --set-upstream"
+alias gpu="git push origin HEAD --set-upstream"
 alias gpf="git push --force-with-lease"
 alias tb="tig blame"
 

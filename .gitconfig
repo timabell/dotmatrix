@@ -15,7 +15,7 @@
 	fa = fetch --all --prune
 	fp = log --first-parent --format=format:'%C(auto)%h %C(blue)%s%C(reset)| %an  %C(auto)%d %cd'
 	fp-raw = log --first-parent --format=format:'%h %s| %an %d %cd'
-	ll = log --format=format:'%C(auto)%h %C(blue)%s%C(reset)| %an  %C(auto)%d'
+	ll = log --format=format:'%C(auto)%h %cd %C(blue)\"%s\"%C(reset) 📝 %an %C(auto)%d' --date='format:%Y-%m-%d %H:%M'
 	mt = mergetool
 	pushf = push --force-with-lease
 	ra = commit --amend --reset-author -CHEAD
@@ -81,14 +81,12 @@
 	browser = chromium-browser
 [include]
 	path = ~/.gitconfig.local
-[tig]
-	line-graphics = utf-8
 [delta]
 	line-numbers = true
 	syntax-theme = Solarized (light)
 [credential]
 	helper = C:/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe
 [user]
-	signingkey = 74D42A4C905507C54A7E3C9C26C6E08728CDF8EA
+	signingkey = 841B11BF367020ACE21C40FEC1E327DF978B4F6E
 [commit]
 	gpgsign = true
