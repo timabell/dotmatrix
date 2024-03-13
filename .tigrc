@@ -3,3 +3,5 @@ set log-options = --show-signature
 set diff-options = --show-signature
 set main-view = id, date, author, commit-title:graph=v2,refs=true
 set line-graphics = utf-8
+set main-view-date-display = relative-compact
+set main-view-author-width = 18

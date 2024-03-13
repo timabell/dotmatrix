@@ -3,6 +3,7 @@ android-tools-adb
 android-tools-fastboot
 apt-file
 aptitude
+asciinema
 audacity
 backintime-qt4
 build-essential
