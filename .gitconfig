@@ -84,7 +84,5 @@
 [delta]
 	line-numbers = true
 	syntax-theme = Solarized (light)
-[user]
-	signingkey = 841B11BF367020ACE21C40FEC1E327DF978B4F6E
 [commit]
 	gpgsign = true
