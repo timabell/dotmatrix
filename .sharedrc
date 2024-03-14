@@ -188,8 +188,5 @@ if [ "$(uname)" = Darwin -a "$(command -v vim)" = /usr/bin/vim ]; then
   [ -f "$HOME$bettervim" ] && alias vim="$HOME$bettervim"
 fi
 
-# set dotnet root so that dotnet-tools work, requires new shell on switching folders
-export DOTNET_ROOT=`asdf where dotnet-core`
-
 # https://stackoverflow.com/a/76688493
 export DOTNET_ROLL_FORWARD=LatestMajor

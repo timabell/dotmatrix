@@ -125,3 +125,6 @@ export PATH="/usr/local/heroku/bin:$PATH"
 [ -f $HOME/.asdf/asdf.sh ] && . $HOME/.asdf/asdf.sh
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# set dotnet root so that dotnet-tools work, requires new shell on switching folders
+export DOTNET_ROOT=`asdf where dotnet-core`
