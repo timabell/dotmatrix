@@ -56,5 +56,7 @@ for file in $(find custom -type f -not -name '*README*'); do
   fi
 done
 
-echo "defaulting to redshift day mode"
-ln -s ~/.config/redshift-day.conf ~/.config/redshift.conf
+if [ ! -L ~/.config/redshift.conf ]; then
+	echo "defaulting to redshift day mode"
+	ln -s ~/.config/redshift-day.conf ~/.config/redshift.conf
+fi
