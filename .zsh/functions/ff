@@ -1,3 +1,4 @@
+# find files (ff)
 function ff() {
 	find . -iname "*$1*"
 }

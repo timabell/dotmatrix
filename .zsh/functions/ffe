@@ -1,3 +1,4 @@
+# find files with regex (ffe)
 function ffe() {
 	find . -iregex "$1"
 }

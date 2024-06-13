@@ -107,3 +107,10 @@ zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
 
 path+=('/c/Program Files (x86)/GnuWin32/bin') # for winget install of "tree"
+
+# set up zsh functions
+fpath=(
+	$fpath
+	~/.zsh/functions
+)
+source ~/.zsh/load-functions.zsh
