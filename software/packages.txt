@@ -6,6 +6,7 @@ aptitude
 asciinema
 audacity
 backintime-qt4
+bat
 build-essential
 cheese
 chromium-browser

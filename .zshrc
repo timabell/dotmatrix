@@ -112,3 +112,6 @@ fpath=(
 	~/.zsh/functions
 )
 source ~/.zsh/load-functions.zsh
+
+#export BAT_CONFIG_PATH="~/.batrc"
+export BAT_CONFIG_DIR="~/.batrc"

@@ -12,6 +12,8 @@ alias agh='ag --hidden' # ag is the silver searcher
 # ref http://unix.stackexchange.com/a/1098
 alias tmux="tmux -2"
 
+alias bat=batcat
+
 # rails
 alias be="bundle exec"
 alias beg="bundle exec guard"
