@@ -1,3 +1,5 @@
+# gx just because it's short
+# all the things I use a lot to see the full state of things in one go
 function gx() {
 	echo ''
 	echo '####### STATUS ######'
