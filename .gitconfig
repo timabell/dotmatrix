@@ -85,6 +85,6 @@
 	line-numbers = true
 	syntax-theme = Solarized (light)
 [credential]
-	helper = C:/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe
+	#helper = C:/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe
 [commit]
 	gpgsign = true
