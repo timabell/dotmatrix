@@ -86,7 +86,5 @@
 	syntax-theme = Solarized (light)
 [credential]
 	helper = C:/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe
-[user]
-	signingkey = 841B11BF367020ACE21C40FEC1E327DF978B4F6E
 [commit]
 	gpgsign = true
