@@ -1,130 +1,101 @@
-fpath=(
-  $fpath
-  ~/.zsh/functions
-  /usr/local/share/zsh/site-functions
-)
+# If you come from bash you might have to change your $PATH.
+# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
 
-source "$HOME/.sharedrc"
+# Path to your oh-my-zsh installation.
+export ZSH="$HOME/.oh-my-zsh"
 
-# color term
-export CLICOLOR=1
-export LSCOLORS=Dxfxcxdxbxegedabadacad
-export ZLS_COLORS=$LSCOLORS
-export LC_CTYPE=en_US.UTF-8
-export LESS=FRX
+# Set name of the theme to load --- if set to "random", it will
+# load a random theme each time oh-my-zsh is loaded, in which case,
+# to know which specific one was loaded, run: echo $RANDOM_THEME
+# See https://github.com/ohmyzsh/ohmyzsh/wiki/Themes
+ZSH_THEME="robbyrussell"
 
-export DOTNET_CLI_TELEMETRY_OPTOUT=1
+# Set list of themes to pick from when loading at random
+# Setting this variable when ZSH_THEME=random will cause zsh to load
+# a theme from this variable instead of looking in $ZSH/themes/
+# If set to an empty array, this variable will have no effect.
+# ZSH_THEME_RANDOM_CANDIDATES=( "robbyrussell" "agnoster" )
 
-# make with the nice completion
-autoload -U compinit; compinit
+# Uncomment the following line to use case-sensitive completion.
+# CASE_SENSITIVE="true"
 
-autoload -U ff
-autoload -U ffe
-autoload -U gx
-autoload -U git-brmv
-autoload -U gdq
+# Uncomment the following line to use hyphen-insensitive completion.
+# Case-sensitive completion must be off. _ and - will be interchangeable.
+# HYPHEN_INSENSITIVE="true"
 
-# Completion for kill-like commands
-zstyle ':completion:*:*:kill:*:processes' list-colors '=(#b) #([0-9]#) ([0-9a-z-]#)*=01;34=0=01'
-zstyle ':completion:*:*:*:*:processes' command "ps -u `whoami` -o pid,user,comm -w -w"
-zstyle ':completion:*:ssh:*' tag-order hosts users
-zstyle ':completion:*:ssh:*' group-order hosts-domain hosts-host users hosts-ipaddr
+# Uncomment one of the following lines to change the auto-update behavior
+# zstyle ':omz:update' mode disabled  # disable automatic updates
+# zstyle ':omz:update' mode auto      # update automatically without asking
+# zstyle ':omz:update' mode reminder  # just remind me to update when it's time
 
-# ignore completion functions (until the _ignored completer)
-zstyle ':completion:*:functions' ignored-patterns '_*'
+# Uncomment the following line to change how often to auto-update (in days).
+# zstyle ':omz:update' frequency 13
 
-zstyle ':completion:*' accept-exact '*(N)'
-zstyle ':completion:*' use-cache on
-zstyle ':completion:*' cache-path ~/.zshcache
+# Uncomment the following line if pasting URLs and other text is messed up.
+# DISABLE_MAGIC_FUNCTIONS="true"
 
-# make with the pretty colors
-autoload colors; colors
+# Uncomment the following line to disable colors in ls.
+# DISABLE_LS_COLORS="true"
 
-# just say no to zle vim mode:
-bindkey -e
+# Uncomment the following line to disable auto-setting terminal title.
+# DISABLE_AUTO_TITLE="true"
 
-# options
-setopt appendhistory autocd extendedglob histignoredups nonomatch prompt_subst interactivecomments hist_ignore_space
-setopt hist_ignore_space
+# Uncomment the following line to enable command auto-correction.
+# ENABLE_CORRECTION="true"
 
-# Bindings
-# external editor support
-autoload edit-command-line
-zle -N edit-command-line
-bindkey '^x^e' edit-command-line
+# Uncomment the following line to display red dots whilst waiting for completion.
+# You can also set it to another string to have that shown instead of the default red dots.
+# e.g. COMPLETION_WAITING_DOTS="%F{yellow}waiting...%f"
+# Caution: this setting can cause issues with multiline prompts in zsh < 5.7.1 (see #5765)
+# COMPLETION_WAITING_DOTS="true"
 
-# Partial word history completion
-bindkey '\ep' up-line-or-search
-bindkey '\en' down-line-or-search
-bindkey '\ew' kill-region
+# Uncomment the following line if you want to disable marking untracked files
+# under VCS as dirty. This makes repository status check for large repositories
+# much, much faster.
+# DISABLE_UNTRACKED_FILES_DIRTY="true"
 
-if [ -z "$TMUX" ]; then
-  fg-widget() {
-    stty icanon echo pendin -inlcr < /dev/tty
-    stty discard '^O' dsusp '^Y' lnext '^V' quit '^\' susp '^Z' < /dev/tty
-    zle reset-prompt
-    if jobs %- >/dev/null 2>&1; then
-      fg %-
-    else
-      fg
-    fi
-  }
+# Uncomment the following line if you want to change the command execution time
+# stamp shown in the history command output.
+# You can set one of the optional three formats:
+# "mm/dd/yyyy"|"dd.mm.yyyy"|"yyyy-mm-dd"
+# or set a custom format using the strftime function format specifications,
+# see 'man strftime' for details.
+# HIST_STAMPS="mm/dd/yyyy"
 
-  zle -N fg-widget
-  bindkey -M emacs "^Z" fg-widget
-  bindkey -M vicmd "^Z" fg-widget
-  bindkey -M viins "^Z" fg-widget
-fi
+# Would you like to use another custom folder than $ZSH/custom?
+# ZSH_CUSTOM=/path/to/new-custom-folder
 
-# prompt
-PROMPT='%{$bg[green]%}%{$fg_bold[white]%} %n@%m%{$reset_color%}%{$bg[green]%}:%{$fg_bold[white]%}%~ %{$reset_color%} $(git_prompt_info "(%s)")
-\$ '
+# Which plugins would you like to load?
+# Standard plugins can be found in $ZSH/plugins/
+# Custom plugins may be added to $ZSH_CUSTOM/plugins/
+# Example format: plugins=(rails git textmate ruby lighthouse)
+# Add wisely, as too many plugins slow down shell startup.
+plugins=(git)
 
-# history
-HISTFILE=~/.zsh_history
-HISTSIZE=5000
-SAVEHIST=10000
-setopt APPEND_HISTORY
-setopt INC_APPEND_HISTORY
+source $ZSH/oh-my-zsh.sh
 
-# default apps
-(( ${+PAGER}   )) || export PAGER='less'
-(( ${+EDITOR}  )) || export EDITOR='vim'
-export PSQL_EDITOR='vim -c"setf sql"'
+# User configuration
 
-# import aliases
-[ ! -f "$HOME/.aliases" ] || . "$HOME/.aliases"
+# export MANPATH="/usr/local/man:$MANPATH"
 
-# set cd autocompletion to commonly visited directories
-cdpath=(~ ~/src $DEV_DIR $HASHROCKET_DIR)
+# You may need to manually set your language environment
+# export LANG=en_US.UTF-8
 
-cuke() {
-  local file="$1"
-  shift
-  cucumber "features/$(basename $file)" $@
-}
-compctl -g '*.feature' -W features cuke
+# Preferred editor for local and remote sessions
+# if [[ -n $SSH_CONNECTION ]]; then
+#   export EDITOR='vim'
+# else
+#   export EDITOR='mvim'
+# fi
 
-# nice completion for gco function
-compdef _git gco=git-checkout
+# Compilation flags
+# export ARCHFLAGS="-arch x86_64"
 
-# import local zsh customizations, if present
-zrcl="$HOME/.zshrc.local"
-[[ ! -a $zrcl ]] || source $zrcl
-
-# remove duplicates in $PATH
-typeset -aU path
-export PATH="$HOME/.bin:$PATH"
-
-### Added by the Heroku Toolbelt
-export PATH="/usr/local/heroku/bin:$PATH"
-
-# added by travis gem
-[ -f /home/tim/.travis/travis.sh ] && source /home/tim/.travis/travis.sh
-
-[ -f $HOME/.asdf/asdf.sh ] && . $HOME/.asdf/asdf.sh
-
-[ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
-
-# set dotnet root so that dotnet-tools work, requires new shell on switching folders
-export DOTNET_ROOT=`asdf where dotnet-core`
+# Set personal aliases, overriding those provided by oh-my-zsh libs,
+# plugins, and themes. Aliases can be placed here, though oh-my-zsh
+# users are encouraged to define aliases within the ZSH_CUSTOM folder.
+# For a full list of active aliases, run `alias`.
+#
+# Example aliases
+# alias zshconfig="mate ~/.zshrc"
+# alias ohmyzsh="mate ~/.oh-my-zsh"
