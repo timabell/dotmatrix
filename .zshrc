@@ -105,3 +105,10 @@ zstyle ':omz:plugins:alias-finder' exact yes # disabled by default
 zstyle ':omz:plugins:alias-finder' cheaper yes # disabled by default
 
 [ -f ~/.fzf.zsh ] && source ~/.fzf.zsh
+
+# set up zsh functions
+fpath=(
+	$fpath
+	~/.zsh/functions
+)
+source ~/.zsh/load-functions.zsh
