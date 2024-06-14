@@ -1,0 +1,3 @@
+#!/bin/sh -v
+# path installed with winget
+/c/Users/User/AppData/Local/Programs/Kdiff3/bin/kdiff3.exe "$@"
