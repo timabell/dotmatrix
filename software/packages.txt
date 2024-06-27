@@ -78,6 +78,7 @@ vim
 vim-gtk
 virtualbox
 vokoscreen
+wakeonlan
 zeal
 zlib1g-dev
 zsh
