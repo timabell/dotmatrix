@@ -56,7 +56,7 @@
                 "guid": "{61c54bbd-c2c6-5271-96e7-009a87ff44bf}",
                 "hidden": false,
                 "name": "Windows PowerShell",
-                "startingDirectory": "C:\\dev\\compas"
+                "startingDirectory": "C:\\dev"
             },
             {
                 "commandline": "%SystemRoot%\\System32\\cmd.exe",
@@ -71,23 +71,11 @@
                 "source": "Windows.Terminal.Azure"
             },
             {
-                "guid": "{563d1635-f708-5012-bba4-4cf1acaceafc}",
-                "hidden": false,
-                "name": "Developer Command Prompt for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "guid": "{cd86cc1d-5f88-5084-b192-35e3c73fc972}",
-                "hidden": false,
-                "name": "Developer PowerShell for VS 2022",
-                "source": "Windows.Terminal.VisualStudio"
-            },
-            {
-                "commandline": "\"%PROGRAMFILES%\\Git\\usr\\bin\\bash.exe\" --login -i",
+                "commandline": "\"C:\\msys64\\usr\\bin\\bash.exe\" --login -i",
                 "guid": "{fb0aa8b6-cd39-4db1-b02c-8468380c857a}",
                 "hidden": false,
                 "name": "bash",
-                "startingDirectory": "C:\\dev\\compas\\CompasSql"
+                "startingDirectory": "C:\\dev\\"
             },
             {
                 "altGrAliasing": true,
@@ -113,11 +101,11 @@
                 "useAcrylic": false
             },
             {
-                "commandline": "\"%PROGRAMFILES%\\Git\\usr\\bin\\zsh.exe\" --login -i",
+                "commandline": "\"C:\\msys64\\usr\\bin\\zsh.exe\" --login -i",
                 "guid": "{27ed4f8e-4ea3-4dae-b251-0a792cadd5cd}",
                 "hidden": false,
                 "name": "zsh",
-                "startingDirectory": "C:\\dev\\compas\\CompasSql"
+                "startingDirectory": "C:\\dev\\"
             }
         ]
     },
