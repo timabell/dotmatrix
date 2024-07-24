@@ -31,7 +31,8 @@
     ],
     "copyFormatting": "none",
     "copyOnSelect": false,
-    "defaultProfile": "{fb0aa8b6-cd39-4db1-b02c-8468380c857a}",
+    "defaultProfile": "{27ed4f8e-4ea3-4dae-b251-0a792cadd5cd}",
+    "firstWindowPreference": "persistedWindowLayout",
     "newTabMenu": 
     [
         {
@@ -105,7 +106,7 @@
                 "guid": "{27ed4f8e-4ea3-4dae-b251-0a792cadd5cd}",
                 "hidden": false,
                 "name": "zsh",
-                "startingDirectory": "C:\\dev\\"
+                "startingDirectory": "C:\\dev"
             }
         ]
     },
@@ -367,5 +368,6 @@
     ],
     "tabWidthMode": "titleLength",
     "theme": "light",
-    "themes": []
+    "themes": [],
+    "windowingBehavior": "useAnyExisting"
 }

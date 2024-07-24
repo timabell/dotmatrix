@@ -116,3 +116,6 @@ fpath=(
 	~/.zsh/functions
 )
 source ~/.zsh/load-functions.zsh
+
+# go to preferred working directory
+cd /c/dev
