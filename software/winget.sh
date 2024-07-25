@@ -7,3 +7,4 @@ winget install Mozilla.Firefox
 winget install Microsoft.VisualStudioCode
 winget install MSYS2.MSYS2
 winget install GitExtensionsTeam.GitExtensions
+winget install Microsoft.PowerToys
