@@ -64,7 +64,6 @@ ZSH_THEME="bira"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 
 plugins=(
-	ag
 	alias-finder # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/alias-finder
 	asdf # adds completions for asdf commands https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/asdf
 	fzf
