@@ -53,6 +53,8 @@
 [merge]
 	summary = true
 	tool = kdiff3
+[mergetool "kdiff3"]
+        path = C:/Users/User/AppData/Local/Programs/KDiff3/bin/kdiff3.exe
 [merge "bundlelock"]
 	name = lock Gemfile
 	driver = bundle install
@@ -77,6 +79,8 @@
 [diff]
 	algorithm = patience
 	guitool = kdiff3
+[difftool "kdiff3"]
+        path = C:/Users/User/AppData/Local/Programs/KDiff3/bin/kdiff3.exe
 [web]
 	browser = chromium-browser
 [include]
