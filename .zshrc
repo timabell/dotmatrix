@@ -1,5 +1,5 @@
 # If you come from bash you might have to change your $PATH.
-# export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$PATH
+export PATH=$HOME/bin:$HOME/.local/bin:/usr/local/bin:$HOME/.dotnet/tools:$PATH
 
 export PATH=/mingw64/bin:$PATH:/c/Program\ Files/Git/usr/bin:~/bin
 
@@ -66,7 +66,6 @@ ZSH_THEME="bira"
 # Custom plugins may be added to $ZSH_CUSTOM/plugins/
 
 plugins=(
-	ag
 	alias-finder # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/alias-finder
 	asdf # adds completions for asdf commands https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/asdf
 	fzf
@@ -117,5 +116,7 @@ fpath=(
 )
 source ~/.zsh/load-functions.zsh
 
+# set dotnet root so that dotnet-tools work, requires new shell on switching folders
+export DOTNET_ROOT=`asdf where dotnet-core`
 # go to preferred working directory
 cd /c/dev

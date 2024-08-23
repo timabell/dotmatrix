@@ -60,6 +60,7 @@ photocollage
 powertop
 pv
 rapid-photo-downloader
+remmina
 rsibreak
 screenkey
 shutter
@@ -78,6 +79,7 @@ vim
 vim-gtk
 virtualbox
 vokoscreen
+wakeonlan
 zeal
 zlib1g-dev
 zsh
