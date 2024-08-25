@@ -31,6 +31,12 @@ alias cf="cargo fmt && git diff"
 alias cr="cargo run"
 alias ct="cargo test"
 
+# dotnet
+alias d="dotnet"
+alias db="dotnet build"
+alias dnf="dotnet format && git diff"
+alias dr="dotnet run"
+alias dt="dotnet test"
 
 # git tools
 alias gk="gitk &"
