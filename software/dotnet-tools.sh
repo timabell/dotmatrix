@@ -19,3 +19,7 @@ dotnet tool install --global GitVersion.Tool # semver tooling
 dotnet tool install --global dotnet-serve # serve any folder over http
 
 dotnet tool install --global dotnet-ef
+
+################
+
+dotnet new install xunit.v3.templates
