@@ -68,6 +68,7 @@ sieve-connect
 silversearcher-ag
 sloccount
 slop
+solaar
 sqlite3
 sqlitebrowser
 syncthing-gtk
