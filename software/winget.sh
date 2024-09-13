@@ -9,3 +9,4 @@ winget install MSYS2.MSYS2
 winget install GitExtensionsTeam.GitExtensions
 winget install Microsoft.PowerToys
 winget install KDE.KDiff3
+winget install ScooterSoftware.BeyondCompare5

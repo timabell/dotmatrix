@@ -92,3 +92,9 @@
 	#helper = C:/Program\\ Files/Git/mingw64/libexec/git-core/git-credential-manager-core.exe
 [commit]
 	gpgsign = true
+[difftool "bc"]
+        path = C:/Program Files/Beyond Compare 5/BComp.exe
+        cmd = \"C:/Program Files/Beyond Compare 5/BComp.exe\" \"$LOCAL\" \"$REMOTE\"
+[mergetool "bc"]
+        path = C:/Program Files/Beyond Compare 5/BComp.exe
+        cmd = \"C:/Program Files/Beyond Compare 5/BComp.exe\" \"$LOCAL\" \"$REMOTE\" \"$BASE\" \"$MERGED\"
