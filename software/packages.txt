@@ -63,6 +63,7 @@ rapid-photo-downloader
 remmina
 rsibreak
 screenkey
+sen
 shutter
 sieve-connect
 silversearcher-ag
