@@ -13,6 +13,7 @@ clamtk
 d-feet
 dia
 digikam
+docker-compose-v2
 docker.io
 dropbox
 exuberant-ctags
