@@ -13,6 +13,7 @@ clamtk
 d-feet
 dia
 digikam
+docker-buildx
 docker-compose-v2
 docker.io
 dropbox
