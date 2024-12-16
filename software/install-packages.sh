@@ -8,14 +8,15 @@ sudo apt update # this is no longer needed on Ubuntu but its required on Linux M
 echo removing unwanted packages
 sudo apt remove keepassx
 
+packages=`grep -v '^#' packages.txt` # filter out commented lines
 if [ "$1" = "single" ]; then
-  for x in `cat packages.txt`; do
+  for x in $packages; do
     echo "installing packages $x"
     sudo apt install -y $x
   done
 else
   echo "installing packages:"
-  cat packages.txt
-  sudo apt install -y `cat packages.txt`
+  echo $packages
+  sudo apt install -y $packages
 fi
 
