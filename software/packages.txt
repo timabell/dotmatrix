@@ -5,7 +5,7 @@ apt-file
 aptitude
 asciinema
 audacity
-backintime-qt4
+# backintime-qt4
 build-essential
 cheese
 chromium-browser
@@ -27,7 +27,7 @@ git
 git-gui
 gitk
 gpxviewer
-gtk-redshift
+# gtk-redshift
 gufw
 guvcview
 hashdeep
@@ -57,7 +57,7 @@ openssh-server
 parcellite
 pavucontrol
 pavumeter
-pdfshuffler
+# pdfshuffler
 photocollage
 powertop
 pv
@@ -80,7 +80,6 @@ tmux
 tree
 v4l-utils
 vim
-vim-gtk
 virtualbox
 vokoscreen
 wakeonlan
