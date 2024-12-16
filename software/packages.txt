@@ -8,7 +8,7 @@ audacity
 # backintime-qt4
 build-essential
 cheese
-chromium-browser
+# chromium-browser # fails on missing snapd
 clamtk
 d-feet
 dia
