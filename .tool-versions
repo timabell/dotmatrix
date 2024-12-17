@@ -1,6 +1,6 @@
-nodejs 23.3.0
-python 3.11.3
+nodejs 23.4.0
+python 3.13.1
 adr-tools 3.0.0
-rust 1.79.0
-ruby 2.7.3
-dotnet-core 8.0.404
+rust 1.83.0
+ruby 3.0.2
+dotnet-core 9.0.101
