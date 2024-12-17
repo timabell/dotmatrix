@@ -43,6 +43,7 @@ liblz4-tool
 liblzma-dev
 libreadline-dev
 libreoffice
+libsqlite3-dev
 libssl-dev
 meld
 mkchromecast
