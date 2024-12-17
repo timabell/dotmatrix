@@ -75,6 +75,7 @@ sqlite3
 sqlitebrowser
 syncthing-gtk
 tig
+tk-dev
 tmux
 tree
 v4l-utils
