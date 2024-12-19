@@ -1,0 +1,1 @@
+/home/tim/repo/jetbrains-toolbox-install/jetbrains-toolbox.sh
