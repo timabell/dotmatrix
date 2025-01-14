@@ -62,6 +62,7 @@ pavumeter
 photocollage
 powertop
 pv
+python3-gpg
 rapid-photo-downloader
 remmina
 rsibreak
