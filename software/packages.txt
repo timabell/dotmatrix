@@ -86,6 +86,7 @@ vim
 virtualbox
 vokoscreen
 wakeonlan
+x2goclient
 zeal
 zlib1g-dev
 zsh
