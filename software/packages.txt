@@ -21,6 +21,7 @@ docker.io
 dropbox
 exuberant-ctags
 flowblade
+fonts-jetbrains-mono
 gcc-mingw-w64-x86-64
 gimp
 gir1.2-gtop-2.0
