@@ -88,3 +88,5 @@
 	syntax-theme = Solarized (light)
 [commit]
 	gpgsign = true
+[init]
+	defaultBranch = main
