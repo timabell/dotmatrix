@@ -38,8 +38,8 @@
 	tree = log --graph --oneline --decorate --color --all
 	treef = log --graph --oneline --decorate --color --first-parent
 	trf = treef
-	trm = "!f() { MERGE_COMMIT_REF=$1; git log --graph --oneline --decorate --color \"$MERGE_COMMIT_REF\" $(git log -m --pretty=format:\"%H %P\" \"$MERGE_COMMIT_REF\" -1 | cut -f 3 -d \" \") --first-parent; }; f"
-	ggm = "!f() { MERGE_COMMIT_REF=$1; tig \"$MERGE_COMMIT_REF\" $(git log -m --pretty=format:\"%H %P\" \"$MERGE_COMMIT_REF\" -1 | cut -f 3 -d \" \") --first-parent; }; f"
+	trm = "!f() { git log --graph --oneline --decorate --color --first-parent \"$1\" $(git rev-list $(git log -m --pretty=format:\"%H %P\" \"$1\" -1 | cut -f 3 -d \" \")); }; f"
+	ggm = "!f() { tig --first-parent \"$1\" $(git rev-list $(git log -m --pretty=format:\"%H %P\" \"$1\" -1 | cut -f 3 -d \" \")); }; f"
 [branch]
 	autosetuprebase = always
 [color]
