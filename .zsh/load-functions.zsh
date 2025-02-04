@@ -1,7 +1,7 @@
 # to be sourced in .zshrc
 
-autoload -U ff
-autoload -U ffe
-autoload -U gdq
-autoload -U git-brmv
-autoload -U gx
+# autoload all functions in ~/.zsh/functions
+# assumes functions are named the same as their file
+for func in ~/.zsh/functions/*; do
+  autoload -U ${func:t}
+done

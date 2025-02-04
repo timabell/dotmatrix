@@ -1,0 +1,5 @@
+# show all my branches (git graph mine)
+# ggl is already taken by omz https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/git
+function gglocal() {
+	tig `git local-branches`
+}
