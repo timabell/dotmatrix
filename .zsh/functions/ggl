@@ -1,0 +1,3 @@
+function ggl() {
+	tig `git local-branches`
+}
