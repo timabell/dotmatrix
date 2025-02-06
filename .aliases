@@ -82,6 +82,7 @@ alias gcp="git commit -pv"
 alias gg="tig --stat=200,180"
 alias ggu="tig @{u} --stat=200,180"
 alias ggf="tig --first-parent -m --stat=200,180"
+alias ggm="git ggm"
 alias gG="tig --all --stat=200,180"
 alias GG="tig --all --stat=200,180"
 alias gra="git ra" # squash staged files into last commit
