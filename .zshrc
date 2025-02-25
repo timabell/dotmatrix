@@ -113,4 +113,5 @@ fpath=(
 source ~/.zsh/load-functions.zsh
 
 # set dotnet root so that dotnet-tools work, requires new shell on switching folders
-export DOTNET_ROOT=`asdf where dotnet-core`
+# https://github.com/emersonsoares/asdf-dotnet-core
+. ~/.asdf/plugins/dotnet-core/set-dotnet-home.zsh
