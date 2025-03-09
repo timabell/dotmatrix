@@ -1,0 +1,13 @@
+.gvs
+.cache/*
+.thumbnails/*
+.local/share/[Tt]rash*
+.dropbox*
+.var/app
+.asdf
+.nuget
+.dbus
+docker
+no-sync
+VirtalBox VMs
+tmp
