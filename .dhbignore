@@ -6,7 +6,10 @@
 .var/app
 .asdf
 .nuget
+.npm
 .dbus
+.hplip
+.java
 docker
 no-sync
 VirtalBox VMs
