@@ -1,7 +1,6 @@
 # backintime-qt4
 # chromium-browser # fails on missing snapd
 # gtk-redshift
-# pdfshuffler
 ack-grep
 android-tools-adb
 android-tools-fastboot
@@ -60,6 +59,7 @@ openssh-server
 parcellite
 pavucontrol
 pavumeter
+pdfarranger
 photocollage
 powertop
 pv
