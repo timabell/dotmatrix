@@ -117,3 +117,6 @@ source ~/.zsh/load-functions.zsh
 . ~/.asdf/plugins/dotnet-core/set-dotnet-home.zsh
 
 export GPG_TTY=$(tty)
+
+# Added by LM Studio CLI (lms)
+export PATH="$PATH:/home/tim/.lmstudio/bin"
