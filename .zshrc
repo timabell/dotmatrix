@@ -115,3 +115,5 @@ source ~/.zsh/load-functions.zsh
 # set dotnet root so that dotnet-tools work, requires new shell on switching folders
 # https://github.com/emersonsoares/asdf-dotnet-core
 . ~/.asdf/plugins/dotnet-core/set-dotnet-home.zsh
+
+export GPG_TTY=$(tty)
