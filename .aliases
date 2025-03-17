@@ -95,6 +95,7 @@ alias gptt="git push --tags"
 alias gpu="git push origin HEAD --set-upstream"
 alias gpf="git push --force-with-lease"
 alias tb="tig blame"
+alias ui=gitui
 
 # hub
 alias pr="hub pull-request" # I tried the gh-cli one and it's not nearly as nice
