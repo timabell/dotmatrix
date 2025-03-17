@@ -1,5 +1,5 @@
 # git diff quiet (gdq)
 # has to be a function not just an alias because the arg has to be in the middle before the `--`
 function gdq() {
-	git diff --patch-with-stat $1 -- ':!package-lock.json' ':!*.lock'
+	git diff --patch-with-stat $1 -- ':!package-lock.json' ':!*.lock' ':!*.feature.cs' ':!*.lock.json'
 }
