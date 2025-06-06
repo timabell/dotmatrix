@@ -20,6 +20,7 @@
 	local-branches="branch --format='%(refname:short)'"
 	mt = mergetool
 	pushf = push --force-with-lease
+	pushu = !git push --set-upstream $(git config remote.pushDefault || echo origin) $(git symbolic-ref --short HEAD)
 	ra = commit --amend --reset-author -CHEAD
 	rba = rebase --abort
 	rbc = rebase --continue
