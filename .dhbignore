@@ -1,17 +1,27 @@
-.gvs
-.cache/*
-.thumbnails/*
-.local/share/[Tt]rash*
-.dropbox*
-.var/app
-.asdf
-.nuget
-.npm
-.dbus
-.hplip
-.java
-docker
-no-sync
-VirtalBox VMs
-tmp
+# ignore anywhere
+.cache/
+.thumbnails/
+
+# ignore at root of source only
+/.asdf
+/.dbus
+/.dropbox
+/.gvs
+/.hplip
+/.java
+/.local/share/Trash/
+/.npm
+/.nuget
+/VirtalBox VMs
+/docker
+/no-sync
+
+# ignore flatpack installs
+/.var/app
+
+# ignore Virtual disk images anywhere
 *.vdi
+
+
+# This is ~/tmp not actually /tmp
+/tmp
