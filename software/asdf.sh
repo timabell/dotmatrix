@@ -11,5 +11,6 @@ asdf plugin add python
 asdf plugin add ruby
 asdf plugin add rust
 asdf plugin add adr-tools
+asdf plugin add just # https://github.com/olofvndrhr/asdf-just
 
 asdf install
