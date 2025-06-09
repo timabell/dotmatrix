@@ -14,3 +14,5 @@ echo "deb [signed-by=/etc/apt/keyrings/syncthing-archive-keyring.gpg] https://ap
 # Update and install syncthing:
 sudo apt-get update
 sudo apt-get install syncthing
+
+echo "Don't forget to set the syncthing-gtk daemon path to /usr/bin/syncthing and turn off autoupdates"
