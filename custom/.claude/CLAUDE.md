@@ -1,0 +1,4 @@
+- trim all trailing whitespace
+- use git commit -a rather than git add && git commit
+- always run add/commit in one command
+- after every change run git add/commit (oneliner) with verbatim prompts used and yourself as co-author in github format
