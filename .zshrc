@@ -117,3 +117,4 @@ source ~/.zsh/load-functions.zsh
 . ~/.asdf/plugins/dotnet-core/set-dotnet-home.zsh
 
 export GPG_TTY=$(tty)
+export EDITOR=vim
