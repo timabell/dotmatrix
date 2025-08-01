@@ -1,3 +1,3 @@
-- trim all trailing whitespace
-- after every change run git add/commit (oneliner) with verbatim prompts used and yourself as co-author in github format, explaining in full the changes made
-- add trailing newline to all files
+- TRIM all generated trailing whitespace
+- ADD trailing newline to all files
+- After every change run git add/commit (one-liner) with bullet list of verbatim prompts used titled "prompts:" and yourself as co-author in github format, explaining in full the changes made
