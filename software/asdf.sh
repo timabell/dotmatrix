@@ -2,7 +2,8 @@
 
 # https://asdf-vm.com/guide/getting-started.html#_2-download-asdf
 
-git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.14.1
+# binary should already be in ~/bin (manual, but sync'd from docs/progs/bin)
+# git clone https://github.com/asdf-vm/asdf.git ~/.asdf --branch v0.18.0
 
 asdf plugin add dotnet-core
 asdf plugin add golang
