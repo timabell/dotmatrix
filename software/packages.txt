@@ -39,12 +39,16 @@ k4dirstat
 kdiff3
 keepassxc
 kipi-plugins
+libglib2.0-dev
+libgtk-3-dev
 liblz4-tool
 liblzma-dev
 libreadline-dev
 libreoffice
 libsqlite3-dev
 libssl-dev
+libwebkit2gtk-4.1-dev
+libxdo-dev
 meld
 mkchromecast
 mosh
