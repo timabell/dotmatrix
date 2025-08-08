@@ -1,3 +1,4 @@
 - TRIM all generated trailing whitespace
 - ADD trailing newline to all files
 - After every change run git add/commit (one-liner) with bullet list of verbatim prompts used titled "prompts:" and yourself as co-author in github format, explaining in full the changes made
+- Each commit must be an atomic and coherent change, including an ADR document in doc/adr/ for any significant architectural choices.
