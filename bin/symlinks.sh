@@ -10,7 +10,7 @@ cd ~
 [ ! -e logseq ] && ln -s ~/oneplus9-home/Documents/logseq
 [ ! -e blog ] && ln -s ~/repo/0x5.uk blog
 
-# seem to end up with a default local file, if it's there move it before creating the link
+# if already exists then move it before creating the link to avoid trashing any data
 if [ ! -L ~/.gitconfig.local ]; then
     [ -f ~/.gitconfig.local ] && mv ~/.gitconfig.local ~/.gitconfig.local.bak
     ln -s ~/Documents/config/.gitconfig.local
