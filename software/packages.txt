@@ -66,6 +66,7 @@ pavucontrol
 pavumeter
 pdfarranger
 photocollage
+pinentry-gtk2
 powertop
 pv
 python3-gpg

@@ -16,3 +16,6 @@ else
   sudo apt install -y $packages
 fi
 
+# https://superuser.com/questions/520980/how-to-force-gpg-to-use-console-mode-pinentry-to-prompt-for-passwords/1327409#1327409
+# To be able to sign commits with gpg on an ssh session to a desktop ui server
+sudo update-alternatives --set pinentry /usr/bin/pinentry-gtk-2
