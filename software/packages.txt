@@ -94,6 +94,7 @@ virtualbox
 vokoscreen
 wakeonlan
 x2goclient
+xclip
 zeal
 zlib1g-dev
 zsh
