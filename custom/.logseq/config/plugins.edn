@@ -1,0 +1,12 @@
+{:logseq-plugin-show-weekday-and-week-number {:version "v1.65.2", :repo "YU000jp/logseq-plugin-show-weekday-and-week-number", :effect true, :theme false}
+ :logseq-diagrams-as-code {:version "0.0.21", :repo "npgrosser/logseq-diagrams-as-code", :effect false, :theme false}
+ :logseq-journals-calendar {:version "v0.11.0", :repo "xyhp915/logseq-journals-calendar", :effect false, :theme false}
+ :logseq-awesome-styler {:version "v3.7.1", :repo "yoyurec/logseq-awesome-styler", :effect true, :theme false}
+ :logseq-emoji-picker-fork {:version "v0.0.6", :repo "walsvid/logseq-emoji-picker-fork", :effect false, :theme false}
+ :logseq-tags {:version "v0.1.2", :repo "gidongkwon/logseq-plugin-tags", :effect false, :theme false}
+ :logseq-task-management-shortcuts {:version "v0.0.3", :repo "vipzhicheng/logseq-plugin-task-management-shortcuts", :effect false, :theme false}
+ :logseq-task-done-time-mini {:version "v1.1.6", :repo "mlhiter/logseq-task-done-time-mini", :effect false, :theme false}
+ :logseq-pretty-html-export {:version "0.0.4", :repo "hisaknown/logseq-pretty-html-export", :effect false, :theme false}
+ :logseq-block-to-page {:version "v1.3.0", :repo "hyrijk/logseq-plugin-block-to-page", :effect false, :theme false}
+ :logseq-bullet-threading {:version "v1.1.4", :repo "pengx17/logseq-plugin-bullet-threading", :effect false, :theme false}
+ :logseq-emoji-shortcodes {:version "v2.0.0", :repo "daviddavo/logseq-emoji-shortcodes", :effect true, :theme false}}
