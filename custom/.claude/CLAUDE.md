@@ -1,6 +1,11 @@
 - TRIM all generated trailing whitespace
 - ADD trailing newline to all files
-- After every change run git add/commit (one-liner) with bullet list of verbatim prompts used titled "prompts:" and yourself as co-author in github format, explaining in full the changes made
-- Each commit must be an atomic and coherent change, including an ADR document in doc/adr/ for any significant architectural choices.
-- Use conventional commit prefixes (ci:, feat:, etc)
+- After every change:
+	- run git add/commit (one-liner)
+	- commit message:
+		- explain in full the changes made
+		- include bullet list of all prompts since last commit VERBATIM, titled "Prompts:"
+		- add yourself as co-author in github format
+- Each commit must be an atomic and coherent change
+- Use conventional commit prefixes for anything that would make sense to show in a user-facing changelog (ci:, feat:, etc)
 - Mockist testing to be avoided. Outside-in & unit testing is preferred. This improves the system's ability to change.
