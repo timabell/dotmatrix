@@ -8,6 +8,7 @@
 		- include bullet list of all prompts since last commit VERBATIM, titled "Prompts:"
 		- add yourself as co-author in github format
 		- where prompts are just responses include sufficient context (e.g. " - in response to:"
+		- if a github bug/feature is completed add a "Fixes <issue-url>" line
 - Each commit must be an atomic and coherent change
 - Use conventional commit prefixes for anything that would make sense to show in a user-facing changelog (ci:, feat:, etc)
 - Mockist testing to be avoided. Outside-in & unit testing is preferred. This improves the system's ability to change.
