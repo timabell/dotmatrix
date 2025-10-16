@@ -2,6 +2,7 @@
 - ADD trailing newline to all files
 - After every change:
 	- run git add/commit (one-liner)
+	- always disable gpg signing: `--no-gpg-sign`
 	- commit message:
 		- explain in full the changes made
 		- include bullet list of all prompts since last commit VERBATIM, titled "Prompts:"
