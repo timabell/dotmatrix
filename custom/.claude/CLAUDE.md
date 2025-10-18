@@ -5,11 +5,13 @@
 	- always disable gpg signing: `--no-gpg-sign`
 	- commit message:
 		- explain in full the changes made
-		- include bullet list of all prompts since last commit VERBATIM, titled "Prompts:"
-		- add yourself as co-author in github format
+		- include bullet list of ALL prompts since last commit, *VERBATIM*, titled "Prompts:", check conversation log, and check git logs to see where to pick up
 		- where prompts are just responses include sufficient context (e.g. " - in response to:"
+		- add yourself as co-author in github format
 		- if a github bug/feature is completed add a "Fixes <issue-url>" line
 		- For fixes/features add the issue id to the end of the commit subject: '(#123)' so that it shows in release notes
+		- Use semantic commit prefixes as per cliff.toml
+		- Do not repeat issue number in commit subject or semantic commit prefix for subsequent branch commits
 - Each commit must be an atomic and coherent change
 - Use conventional commit prefixes for anything that would make sense to show in a user-facing changelog (ci:, feat:, etc)
 - Mockist testing to be avoided. Outside-in & unit testing is preferred. This improves the system's ability to change.
