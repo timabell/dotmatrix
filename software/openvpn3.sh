@@ -7,6 +7,11 @@ set -e
 # https://community.openvpn.net/Pages/OpenVPN3Linux#stable-repository-debian-ubuntu
 # modified to be idempotent
 
+if [ "$(id -u)" -ne 0 ]; then
+    echo "Error: This script must be run as root"
+    exit 1
+fi
+
 echo "Installing prerequisites..."
 apt install apt-transport-https curl
 
