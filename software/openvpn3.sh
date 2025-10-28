@@ -48,3 +48,5 @@ echo "Installing OpenVPN3..."
 apt -y install openvpn3 apt-transport-https curl
 
 echo "OpenVPN3 installation complete"
+
+openvpn3 version
