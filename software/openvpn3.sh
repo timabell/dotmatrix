@@ -28,9 +28,6 @@ else
     exit 1
 fi
 
-echo "Installing prerequisites..."
-apt install apt-transport-https curl
-
 if [ ! -f /etc/apt/keyrings/openvpn.asc ]; then
     echo "Downloading OpenVPN signing key..."
     curl -sSfL https://packages.openvpn.net/packages-repo.gpg > /etc/apt/keyrings/openvpn.asc
@@ -48,6 +45,6 @@ else
 fi
 
 echo "Installing OpenVPN3..."
-apt install openvpn3
+apt -y install openvpn3 apt-transport-https curl
 
 echo "OpenVPN3 installation complete"
