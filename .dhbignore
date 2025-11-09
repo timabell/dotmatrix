@@ -15,6 +15,7 @@
 /VirtalBox VMs
 /docker
 /no-sync
+/.microsoft/usersecrets
 
 # ignore flatpack installs
 /.var/app
