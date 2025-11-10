@@ -18,6 +18,7 @@ digikam
 docker-buildx
 docker-compose-v2
 docker.io
+dos2unix
 dropbox
 exuberant-ctags
 flowblade
