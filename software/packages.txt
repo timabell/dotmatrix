@@ -57,6 +57,7 @@ mosh
 mplayer
 nemo-dropbox
 neofetch
+neovim
 nethogs
 nvidia-prime
 obs-studio
