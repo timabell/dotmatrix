@@ -237,7 +237,8 @@ plugins {
 // Choose the theme that is specified in the themes section.
 // Default: default
 //
-// theme "default"
+theme "tokyo-night-light"
+//theme "solarized-light"
 
 // The name of the default layout to load on startup
 // Default: "default"
