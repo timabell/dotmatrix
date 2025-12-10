@@ -1,0 +1,17 @@
+{
+  "disabled": false,
+  "keyBindings": {
+  },
+  "tasks": [
+    "TODO",
+    "INBOX",
+    "ACTION",
+    "TODAY",
+    "DOING",
+    "DONE",
+    "WAITING",
+    "SCHEDULED",
+    "ABANDONED"
+  ],
+  "settingsVersion": "v2"
+}
