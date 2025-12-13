@@ -10,12 +10,14 @@
 /.hplip
 /.java
 /.local/share/Trash/
+/.local/share/JetBrains
 /.npm
 /.nuget
 /VirtalBox VMs
 /docker
 /no-sync
 /.microsoft/usersecrets
+/.cargo
 
 # ignore flatpack installs
 /.var/app
