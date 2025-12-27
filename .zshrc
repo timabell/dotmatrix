@@ -67,6 +67,7 @@ plugins=(
 	alias-finder # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/alias-finder
 	fzf
 	git
+	mise
 )
 
 source $ZSH/oh-my-zsh.sh
