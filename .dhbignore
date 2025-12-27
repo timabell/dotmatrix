@@ -18,6 +18,7 @@
 /no-sync
 /.microsoft/usersecrets
 /.cargo
+/.local/share/mise
 
 # ignore flatpack installs
 /.var/app
