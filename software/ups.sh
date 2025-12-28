@@ -1,9 +1,8 @@
 #!/bin/sh -v
 
-# https://www.digitalocean.com/community/tutorials/how-to-set-up-a-remote-desktop-with-x2go-on-ubuntu-20-04
 # https://help.ubuntu.com/community/apcupsd
 
-sudo apt install mint-meta-mate x2goserver x2goserver-xsession apcupsd
+sudo apt install apcupsd
 
 APC_CONF_SOURCE="$HOME/Documents/config/apcupsd.conf"
 APC_CONF="/etc/apcupsd/apcupsd.conf"
