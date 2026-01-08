@@ -115,3 +115,6 @@ source ~/.zsh/load-functions.zsh
 export GPG_TTY=$(tty)
 export EDITOR=vim
 eval "$(mise activate zsh)"
+
+# set DOTNET_ROOT so that dotnet-tools work
+export DOTNET_ROOT=$(mise where dotnet-core)
