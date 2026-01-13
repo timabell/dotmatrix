@@ -10,7 +10,8 @@
 /.hplip
 /.java
 /.local/share/Trash/
-/.local/share/JetBrains
+/.local/share/JetBrains/
+/.local/share/NuGet/
 /.npm
 /.nuget
 /VirtalBox VMs
