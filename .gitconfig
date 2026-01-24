@@ -37,9 +37,9 @@
 	ssh = stash show -p
 	sss = !git stash save "savesnapshot: $(date)" && git stash apply 'stash@{0}'
 	st = status --short --branch
-	tr = log --graph --oneline --decorate --color
-	tree = log --graph --oneline --decorate --color --all
-	treef = log --graph --oneline --decorate --color --first-parent
+	tr = log --graph --oneline --decorate --color --pretty=format:'%C(auto)%h %d %s %C(green)[%G?]%Creset'
+	tree = log --graph --oneline --decorate --color --all --pretty=format:'%C(auto)%h %d %s %C(green)[%G?]%Creset'
+	treef = log --graph --oneline --decorate --color --first-parent --pretty=format:'%C(auto)%h %d %s %C(green)[%G?]%Creset'
 	trf = treef
 	trm = "!f() { merge_commit=$1; feature_branch=$(git log -m --pretty=format:\"%H %P\" $merge_commit -1 | cut -f 3 -d \" \"); git log --graph --oneline --decorate --color --first-parent $(git rev-list $feature_branch ^$merge_commit^) $(git rev-list $merge_commit --first-parent); }; f"
 	ggm = "!f() { merge_commit=$1; feature_branch=$(git log -m --pretty=format:\"%H %P\" $merge_commit -1 | cut -f 3 -d \" \"); tig --first-parent $(git rev-list $feature_branch ^$merge_commit^) $(git rev-list $merge_commit --first-parent); }; f"
