@@ -39,6 +39,7 @@ alias db="dotnet build"
 alias dnf="dotnet format && git diff"
 alias dr="dotnet run"
 alias dt="dotnet test"
+alias ds="dotnet user-secrets"
 
 # git tools
 alias gk="gitk &"
