@@ -10,7 +10,7 @@
 		- add yourself as co-author in github format
 		- if a github bug/feature is completed add a "Fixes <issue-url>" line
 		- For fixes/features add the issue id to the end of the commit subject: '(#123)' so that it shows in release notes
-		- Use semantic commit prefixes as per cliff.toml
+		- Use semantic commit prefixes as per cliff.toml - but only for commits worthy of going in release notes, not for every commit
 		- Do not repeat issue number in commit subject or semantic commit prefix for subsequent branch commits
 - Each commit must be an atomic and coherent change
 - Use conventional commit prefixes for anything that would make sense to show in a user-facing changelog (ci:, feat:, etc)
