@@ -20,6 +20,9 @@ dotnet tool install --global dotnet-serve # serve any folder over http
 
 dotnet tool install --global dotnet-ef
 
+# https://github.com/RicoSuter/DNT
+dotnet tool install --global dnt # nuget/project ref switcher
+
 ################
 
 dotnet new install xunit.v3.templates
