@@ -9,3 +9,4 @@
 *.user
 .jekyll-cache
 .claude
+*.syncthing.*.tmp
