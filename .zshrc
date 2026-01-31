@@ -119,3 +119,5 @@ eval "$(mise activate zsh)"
 
 # set DOTNET_ROOT so that dotnet-tools work
 export DOTNET_ROOT=$(mise where dotnet-core)
+
+export DISABLE_AUTOUPDATER=1 # turn off claude code's broken updater
