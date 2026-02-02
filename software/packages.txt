@@ -92,7 +92,6 @@ tk-dev
 tmux
 tree
 v4l-utils
-vim
 virtualbox
 vokoscreen
 wakeonlan
