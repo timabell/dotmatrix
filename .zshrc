@@ -121,6 +121,3 @@ eval "$(mise activate zsh)"
 export DOTNET_ROOT=$(mise where dotnet-core)
 
 export DISABLE_AUTOUPDATER=1 # turn off claude code's broken updater
-
-# Fix ssh-agent setup when ssh'd into desktop
-export SSH_AUTH_SOCK="$XDG_RUNTIME_DIR/keyring/.ssh"
