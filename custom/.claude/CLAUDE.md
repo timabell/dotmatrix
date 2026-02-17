@@ -16,3 +16,6 @@
 - Use conventional commit prefixes for anything that would make sense to show in a user-facing changelog (ci:, feat:, etc)
 - Mockist testing to be avoided. Outside-in & unit testing is preferred. This improves the system's ability to change.
 - NEVER use bash unless there are no built-in tools available for the job
+- NEVER use cat as a workaround
+- Never workaround architectural gaps, stop and discuss with the user
+
