@@ -20,6 +20,7 @@
 /.microsoft/usersecrets
 /.cargo
 /.local/share/mise
+/.gradle
 
 # ignore flatpack installs
 /.var/app
