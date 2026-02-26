@@ -18,4 +18,8 @@
 - NEVER use bash unless there are no built-in tools available for the job
 - NEVER use cat as a workaround
 - Never workaround architectural gaps, stop and discuss with the user
+- How to construct Azure DevOps permalinks: `https://dev.azure.com/{org}/{project}/_git/{repo}?path={path}&version=GC{sha}`
+  - With line range: append `&line={start}&lineEnd={end}&lineStartColumn=1&lineEndColumn=1&lineStyle=plain&_a=contents`
+  - Single line: `lineEnd` must be `line+1` (e.g., line 12 → `&line=12&lineEnd=13&...`)
+
 
