@@ -15,6 +15,7 @@
 - Each commit must be an atomic and coherent change
 - Use conventional commit prefixes for anything that would make sense to show in a user-facing changelog (ci:, feat:, etc)
 - Mockist testing to be avoided. Outside-in & unit testing is preferred. This improves the system's ability to change.
+- TDD with red-green-refactor.
 - Never create throwaway temporary test files - use proper TDD.
 - NEVER use bash unless there are no built-in tools available for the job
 - NEVER use cat as a workaround
