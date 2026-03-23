@@ -48,6 +48,7 @@ liblz4-tool
 liblzma-dev
 libreadline-dev
 libreoffice
+libsecret-tools
 libsqlite3-dev
 libssl-dev
 libwebkit2gtk-4.1-dev
