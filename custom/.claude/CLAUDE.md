@@ -1,4 +1,4 @@
-- TRIM all generated trailing whitespace
+- TRIM all generated trailing whitespace (apart from markdown hard-wraps)
 - ADD trailing newline to all files
 - After every change:
 	- run git add/commit (one-liner)
@@ -13,17 +13,18 @@
 		- Use semantic commit prefixes as per cliff.toml - but only for commits worthy of going in release notes, not for every commit
 		- Do not repeat issue number in commit subject or semantic commit prefix for subsequent branch commits
 - Each commit must be an atomic and coherent change
-- Use conventional commit prefixes for anything that would make sense to show in a user-facing changelog (ci:, feat:, etc)
+- Use conventional commit prefixes for anything that would make sense to show in a user-facing changelog (ci:, feat:, etc). Commit subject must make sense to end user.
 - Mockist testing to be avoided. Outside-in & unit testing is preferred. This improves the system's ability to change.
-- TDD with red-green-refactor.
-- Never create throwaway temporary test files - use proper TDD.
+- Use TDD (red-green-refactor).
+- NEVER create throwaway temporary test files - use proper TDD.
 - NEVER use bash unless there are no built-in tools available for the job
 - NEVER use cat as a workaround
-- Never workaround architectural gaps, stop and discuss with the user
+- Never workaround architectural gaps, stop and discuss
 - Docs/Markdown:
 	- Do not add `---` between sections
 	- When mentioning files in github include permalinks to lines to `git rev-parse origin/main`
 	- How to construct Azure DevOps permalinks: `https://dev.azure.com/{org}/{project}/_git/{repo}?path={path}&version=GC{sha}`
 		- With line range: append `&line={start}&lineEnd={end}&lineStartColumn=1&lineEndColumn=1&lineStyle=plain&_a=contents`
 		- Single line: `lineEnd` must be `line+1` (e.g., line 12 → `&line=12&lineEnd=13&...`)
+	When creating a "plan" include list of prompts so far for inclusion in later commit message
 
