@@ -84,6 +84,7 @@ sieve-connect
 silversearcher-ag
 sloccount
 slop
+smartmontools
 solaar
 sqlite3
 sqlitebrowser
