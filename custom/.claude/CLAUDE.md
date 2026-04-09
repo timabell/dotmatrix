@@ -7,6 +7,7 @@
 - After every change:
 	- run git add/commit (one-liner)
 	- always disable gpg signing: `--no-gpg-sign`
+	- NEVER amend
 	- commit message:
 		- explain in full the changes made
 		- include bullet list of ALL prompts since last commit, *VERBATIM*, titled "Prompts:", check conversation log, and check git logs to see where to pick up
