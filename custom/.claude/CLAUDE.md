@@ -1,5 +1,9 @@
+- When creating a "plan" include list of prompts so far for inclusion in later commit message
+- Use TDD (red-green-refactor).
+- Mockist testing to be avoided. Outside-in & unit testing is preferred. This improves the system's ability to change.
 - TRIM all generated trailing whitespace (apart from markdown hard-wraps)
 - ADD trailing newline to all files
+- Each commit must be an atomic and coherent change
 - After every change:
 	- run git add/commit (one-liner)
 	- always disable gpg signing: `--no-gpg-sign`
@@ -12,10 +16,7 @@
 		- For fixes/features add the issue id to the end of the commit subject: '(#123)' so that it shows in release notes
 		- Use semantic commit prefixes as per cliff.toml - but only for commits worthy of going in release notes, not for every commit
 		- Do not repeat issue number in commit subject or semantic commit prefix for subsequent branch commits
-- Each commit must be an atomic and coherent change
-- Use conventional commit prefixes for anything that would make sense to show in a user-facing changelog (ci:, feat:, etc). Commit subject must make sense to end user.
-- Mockist testing to be avoided. Outside-in & unit testing is preferred. This improves the system's ability to change.
-- Use TDD (red-green-refactor).
+		- Use conventional commit prefixes for anything that would make sense to show in a user-facing changelog (ci:, feat:, etc). Commit subject must make sense to end user.
 - NEVER create throwaway temporary test files - use proper TDD.
 - NEVER use bash unless there are no built-in tools available for the job
 - NEVER use cat as a workaround
@@ -26,5 +27,4 @@
 	- How to construct Azure DevOps permalinks: `https://dev.azure.com/{org}/{project}/_git/{repo}?path={path}&version=GC{sha}`
 		- With line range: append `&line={start}&lineEnd={end}&lineStartColumn=1&lineEndColumn=1&lineStyle=plain&_a=contents`
 		- Single line: `lineEnd` must be `line+1` (e.g., line 12 → `&line=12&lineEnd=13&...`)
-	When creating a "plan" include list of prompts so far for inclusion in later commit message
 
