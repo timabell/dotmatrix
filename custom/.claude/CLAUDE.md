@@ -28,4 +28,4 @@
 	- How to construct Azure DevOps permalinks: `https://dev.azure.com/{org}/{project}/_git/{repo}?path={path}&version=GC{sha}`
 		- With line range: append `&line={start}&lineEnd={end}&lineStartColumn=1&lineEndColumn=1&lineStyle=plain&_a=contents`
 		- Single line: `lineEnd` must be `line+1` (e.g., line 12 → `&line=12&lineEnd=13&...`)
-
+- code comments: write for current/new state of code not for what should be in git logs
