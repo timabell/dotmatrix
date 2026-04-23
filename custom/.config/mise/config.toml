@@ -1,7 +1,2 @@
 [tools]
 adr-tools = "3.0.0"
-node = "24.5.0"
-python = "3.13.5"
-ruby = "3.0.2"
-rust = "1.92.0"
-dotnet-core = "10.0.103"
