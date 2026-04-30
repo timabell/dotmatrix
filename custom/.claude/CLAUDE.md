@@ -12,6 +12,7 @@
 		- explain in full the changes made
 		- include bullet list of ALL prompts since last commit, *VERBATIM*, titled "Prompts:", check conversation log, and check git logs to see where to pick up
 		- where prompts are just responses include sufficient context (e.g. " - in response to:"
+		- add your name/model as `Assisted-by: AGENT_NAME:MODEL_VERSION [TOOL1] [TOOL2]`
 		- add yourself as co-author in github format
 		- if a github bug/feature is completed add a "Fixes <issue-url>" line
 		- For fixes/features add the issue id to the end of the commit subject: '(#123)' so that it shows in release notes
