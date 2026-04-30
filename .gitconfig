@@ -84,12 +84,12 @@
 	guitool = kdiff3
 [web]
 	browser = chromium-browser
+[commit]
+	gpgsign = true
 [include]
 	path = ~/.gitconfig.local
 [delta]
 	line-numbers = true
 	syntax-theme = Solarized (light)
-[commit]
-	gpgsign = true
 [init]
 	defaultBranch = main
