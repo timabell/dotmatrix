@@ -67,7 +67,6 @@ plugins=(
 	alias-finder # https://github.com/ohmyzsh/ohmyzsh/tree/master/plugins/alias-finder
 	fzf
 	git
-	mise
 )
 
 source $ZSH/oh-my-zsh.sh
@@ -115,12 +114,5 @@ source ~/.zsh/load-functions.zsh
 
 export GPG_TTY=$(tty)
 export EDITOR=vim
-eval "$(mise activate zsh)"
-
-# set DOTNET_ROOT so that dotnet-tools work (re-evaluated on cd via precmd, after mise)
-function _update_dotnet_root() {
-  export DOTNET_ROOT=$(mise where dotnet-core 2>/dev/null)
-}
-add-zsh-hook precmd _update_dotnet_root
 
 export DISABLE_AUTOUPDATER=1 # turn off claude code's broken updater
